@@ -1,0 +1,500 @@
+pairid,origin,destination,time_dep,time_arr,changes,dur,products,comments,tripdur,traintype_ice,traintype_ic
+1,"Aachen Hbf","Aalen","6:51 AM","11:25 AM",2,"4:34","RE, ICE, RE","",274,1,0
+1,"Aachen Hbf","Aalen","9:51 AM","3:25 PM",3,"5:34","RE, EC, ICE, RE","",334,1,0
+1,"Aachen Hbf","Aalen","7:39 AM","12:25 PM",2,"4:46","ICE, ICE, RE","",286,1,0
+1,"Aachen Hbf","Aalen","8:51 AM","1:25 PM",2,"4:34","RE, ICE, RE","",274,1,0
+1,"Aachen Hbf","Aalen","8:51 AM","2:55 PM",4,"6:04","RE, ICE, RB, EC, IC","",364,1,1
+1,"Aachen Hbf","Aalen","7:51 AM","1:25 PM",3,"5:34","RE, EC, ICE, RE","",334,1,0
+1,"Aachen Hbf","Aalen","9:51 AM","2:25 PM",3,"4:34","RE, ICE, ICE, RE","",274,1,0
+1,"Aachen Hbf","Aalen","7:51 AM","12:55 PM",2,"5:04","RE, ICE, IC","",304,1,1
+1,"Aachen Hbf","Aalen","7:51 AM","12:25 PM",3,"4:34","RE, ICE, ICE, RE","",274,1,0
+1,"Aachen Hbf","Aalen","9:51 AM","2:55 PM",2,"5:04","RE, ICE, IC","",304,1,1
+1,"Aachen Hbf","Aalen","6:56 AM","12:55 PM",2,"5:59","RE, EC, IC","",359,0,1
+2,"Aachen Hbf","Ahrweiler","6:18 AM","8:47 AM",2,"2:29","RE, RE, RB","",149,0,0
+2,"Aachen Hbf","Ahrweiler","9:18 AM","11:47 AM",2,"2:29","RE, RE, RB","",149,0,0
+2,"Aachen Hbf","Ahrweiler","7:39 AM","9:47 AM",2,"2:08","ICE, RE, RB","",128,1,0
+2,"Aachen Hbf","Ahrweiler","6:56 AM","9:26 AM",2,"2:30","RE, EC, RB","",150,0,0
+2,"Aachen Hbf","Ahrweiler","8:39 AM","10:47 AM",2,"2:08","THA, RE, RB","",128,0,0
+2,"Aachen Hbf","Ahrweiler","7:51 AM","10:26 AM",2,"2:35","RE, IC, RB","",155,0,1
+2,"Aachen Hbf","Ahrweiler","8:51 AM","11:26 AM",2,"2:35","RE, ICE, RB","",155,1,0
+3,"Aachen Hbf","Aichach","6:56 AM","2:12 PM",2,"7:16","RE, EC, BRB","",436,0,0
+3,"Aachen Hbf","Aichach","7:39 AM","1:38 PM",2,"5:59","ICE, ICE, BRB","",359,1,0
+3,"Aachen Hbf","Aichach","8:51 AM","2:42 PM",2,"5:51","RE, ICE, BRB","",351,1,0
+3,"Aachen Hbf","Aichach","8:51 AM","4:12 PM",4,"7:21","RE, ICE, RB, EC, BRB","",441,1,0
+3,"Aachen Hbf","Aichach","6:28 AM","12:38 PM",3,"6:10","RE, ICE, ICE, BRB","",370,1,0
+3,"Aachen Hbf","Aichach","6:51 AM","1:38 PM",2,"6:47","RE, ICE, BRB","",407,1,0
+3,"Aachen Hbf","Aichach","7:51 AM","2:42 PM",3,"6:51","RE, EC, ICE, BRB","",411,1,0
+3,"Aachen Hbf","Aichach","9:18 AM","3:38 PM",3,"6:20","RE, ICE, ICE, BRB","",380,1,0
+3,"Aachen Hbf","Aichach","7:51 AM","1:38 PM",3,"5:47","RE, ICE, ICE, BRB","",347,1,0
+3,"Aachen Hbf","Aichach","7:51 AM","3:12 PM",3,"7:21","RE, EC, IC, BRB","",441,0,1
+3,"Aachen Hbf","Aichach","8:39 AM","2:38 PM",4,"5:59","THA, RB, ICE, ICE, BRB","",359,1,0
+3,"Aachen Hbf","Aichach","8:18 AM","2:38 PM",3,"6:20","RE, ICE, ICE, BRB","",380,1,0
+3,"Aachen Hbf","Aichach","6:51 AM","12:42 PM",2,"5:51","RE, ICE, BRB","",351,1,0
+4,"Aachen Hbf","Altenburg","7:39 AM","2:49 PM",3,"7:10","ICE, IC, RE, RE","",430,1,1
+4,"Aachen Hbf","Altenburg","7:39 AM","3:08 PM",2,"7:29","ICE, IC, RE","",449,1,1
+4,"Aachen Hbf","Altenburg","6:51 AM","2:49 PM",4,"7:58","RE, ICE, IC, RE, RE","",478,1,1
+4,"Aachen Hbf","Altenburg","9:51 AM","4:49 PM",4,"6:58","RE, ICE, IC, RE, RE","",418,1,1
+4,"Aachen Hbf","Altenburg","8:51 AM","4:49 PM",4,"7:58","RE, ICE, IC, RE, RE","",478,1,1
+4,"Aachen Hbf","Altenburg","9:51 AM","5:40 PM",3,"7:49","RE, EC, ICE, RE","",469,1,0
+4,"Aachen Hbf","Altenburg","7:51 AM","3:08 PM",3,"7:17","RE, ICE, IC, RE","",437,1,1
+4,"Aachen Hbf","Altenburg","9:51 AM","6:49 PM",5,"8:58","RE, EC, RE, IC, RE, RE","",538,0,1
+4,"Aachen Hbf","Altenburg","7:51 AM","4:49 PM",5,"8:58","RE, EC, RE, IC, RE, RE","",538,0,1
+4,"Aachen Hbf","Altenburg","7:51 AM","3:37 PM",3,"7:46","RE, EC, ICE, RE","",466,1,0
+4,"Aachen Hbf","Altenburg","8:51 AM","3:37 PM",3,"6:46","RE, ICE, ICE, RE","",406,1,0
+4,"Aachen Hbf","Altenburg","9:51 AM","5:08 PM",3,"7:17","RE, ICE, IC, RE","",437,1,1
+4,"Aachen Hbf","Altenburg","7:51 AM","2:49 PM",4,"6:58","RE, ICE, IC, RE, RE","",418,1,1
+4,"Aachen Hbf","Altenburg","7:39 AM","3:08 PM",3,"7:29","ICE, ICE, IC, RE","",449,1,1
+4,"Aachen Hbf","Altenburg","9:18 AM","5:08 PM",3,"7:50","RE, ICE, IC, RE","",470,1,1
+4,"Aachen Hbf","Altenburg","6:51 AM","1:40 PM",3,"6:49","RE, ICE, ICE, RE","",409,1,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","7:39 AM","9:40 AM",2,"2:01","ICE, RE, VEC","",121,1,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","8:18 AM","10:40 AM",1,"2:22","RE, VEC","",142,0,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","7:18 AM","9:40 AM",1,"2:22","RE, VEC","",142,0,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","8:39 AM","10:40 AM",2,"2:01","THA, RE, VEC","",121,0,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","6:18 AM","8:40 AM",1,"2:22","RE, VEC","",142,0,0
+5,"Aachen Hbf","Altenkirchen(Westerwald)","9:18 AM","11:40 AM",1,"2:22","RE, VEC","",142,0,0
+6,"Aachen Hbf","Altštting","6:51 AM","2:51 PM",3,"8:00","RE, ICE, RB, RB","",480,1,0
+6,"Aachen Hbf","Altštting","7:51 AM","4:51 PM",4,"9:00","RE, EC, ICE, RE, RB","",540,1,0
+6,"Aachen Hbf","Altštting","8:18 AM","3:51 PM",3,"7:33","RE, ICE, S, RB","",453,1,0
+6,"Aachen Hbf","Altštting","6:56 AM","3:51 PM",3,"8:55","RE, EC, S, RB","",535,0,0
+6,"Aachen Hbf","Altštting","8:39 AM","3:51 PM",4,"7:12","THA, RB, ICE, S, RB","",432,1,0
+6,"Aachen Hbf","Altštting","8:51 AM","5:51 PM",4,"9:00","RE, ICE, ALX, RB, RB","[BQ]",540,1,0
+6,"Aachen Hbf","Altštting","9:18 AM","4:51 PM",3,"7:33","RE, ICE, RE, RB","",453,1,0
+6,"Aachen Hbf","Altštting","7:51 AM","4:51 PM",4,"9:00","RE, EC, IC, RE, RB","",540,0,1
+7,"Aachen Hbf","Alzey","7:39 AM","11:04 AM",2,"3:25","ICE, S, RB","",205,1,0
+7,"Aachen Hbf","Alzey","8:51 AM","12:31 PM",2,"3:40","RE, ICE, RE","",220,1,0
+7,"Aachen Hbf","Alzey","7:51 AM","11:31 AM",2,"3:40","RE, EC, RE","",220,0,0
+7,"Aachen Hbf","Alzey","9:51 AM","1:38 PM",3,"3:47","RE, IC, MRB, RB","",227,0,1
+7,"Aachen Hbf","Alzey","6:56 AM","10:38 AM",3,"3:42","RE, EC, MRB, RB","",222,0,0
+7,"Aachen Hbf","Alzey","8:51 AM","1:38 PM",2,"4:47","RE, MRB, RB","",287,0,0
+7,"Aachen Hbf","Alzey","9:51 AM","2:04 PM",2,"4:13","RE, IC, RB","",253,0,1
+7,"Aachen Hbf","Alzey","8:18 AM","12:38 PM",3,"4:20","RE, RE, MRB, RB","",260,0,0
+7,"Aachen Hbf","Alzey","6:51 AM","11:04 AM",2,"4:13","RE, ICE, RB","",253,1,0
+8,"Aachen Hbf","Amberg","7:51 AM","2:49 PM",4,"6:58","RE, EC, ICE, ICE, ALX","",418,1,0
+8,"Aachen Hbf","Amberg","8:51 AM","3:42 PM",2,"6:51","RE, ICE, RE","",411,1,0
+8,"Aachen Hbf","Amberg","8:39 AM","2:40 PM",3,"6:01","THA, RB, ICE, RE","",361,1,0
+8,"Aachen Hbf","Amberg","7:51 AM","1:40 PM",3,"5:49","RE, ICE, ICE, RE","",349,1,0
+8,"Aachen Hbf","Amberg","6:28 AM","12:28 PM",2,"6:00","RE, ICE, RE","",360,1,0
+8,"Aachen Hbf","Amberg","7:39 AM","1:40 PM",2,"6:01","ICE, ICE, RE","",361,1,0
+8,"Aachen Hbf","Amberg","9:18 AM","2:49 PM",2,"5:31","RE, ICE, ALX","",331,1,0
+8,"Aachen Hbf","Amberg","6:51 AM","1:40 PM",2,"6:49","RE, ICE, RE","",409,1,0
+8,"Aachen Hbf","Amberg","8:18 AM","2:40 PM",2,"6:22","RE, ICE, RE","",382,1,0
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","9:51 AM","7:48 PM",4,"9:57","RE, EC, ICE, RE, RB","",597,1,0
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","9:18 AM","6:49 PM",4,"9:31","RE, ICE, IC, RE, RB","",571,1,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","7:39 AM","4:48 PM",3,"9:09","ICE, IC, RE, RB","",549,1,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","8:51 AM","5:48 PM",4,"8:57","RE, ICE, ICE, RE, RB","",537,1,0
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","7:51 AM","5:48 PM",3,"9:57","RE, IC, RE, RB","",597,0,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","7:39 AM","4:48 PM",4,"9:09","ICE, ICE, IC, RE, RB","",549,1,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","9:51 AM","6:49 PM",4,"8:58","RE, ICE, IC, RE, RB","",538,1,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","7:51 AM","4:48 PM",4,"8:57","RE, ICE, IC, RE, RB","",537,1,1
+9,"Aachen Hbf","Annaberg-Buchholz Mitte","6:51 AM","3:48 PM",4,"8:57","RE, ICE, ICE, RE, RB","",537,1,0
+10,"Aachen Hbf","Ansbach","9:51 AM","4:46 PM",4,"6:55","RE, EC, ICE, ICE, RB","",415,1,0
+10,"Aachen Hbf","Ansbach","6:56 AM","1:49 PM",2,"6:53","RE, EC, IC","",413,0,1
+10,"Aachen Hbf","Ansbach","8:51 AM","2:46 PM",2,"5:55","RE, ICE, RB","",355,1,0
+10,"Aachen Hbf","Ansbach","9:51 AM","2:46 PM",3,"4:55","RE, ICE, ICE, RB","",295,1,0
+10,"Aachen Hbf","Ansbach","7:39 AM","12:15 PM",2,"4:36","ICE, ICE, IC","",276,1,1
+10,"Aachen Hbf","Ansbach","6:51 AM","12:47 PM",2,"5:56","RE, ICE, RB","",356,1,0
+10,"Aachen Hbf","Ansbach","7:51 AM","12:47 PM",3,"4:56","RE, ICE, ICE, RB","",296,1,0
+10,"Aachen Hbf","Ansbach","9:18 AM","2:46 PM",2,"5:28","RE, ICE, RB","",328,1,0
+10,"Aachen Hbf","Ansbach","8:39 AM","1:47 PM",3,"5:08","THA, RB, ICE, RB","",308,1,0
+10,"Aachen Hbf","Ansbach","6:28 AM","11:46 AM",2,"5:18","RE, ICE, RB","",318,1,0
+10,"Aachen Hbf","Ansbach","8:18 AM","1:47 PM",2,"5:29","RE, ICE, RB","",329,1,0
+11,"Aachen Hbf","Apolda","9:51 AM","3:30 PM",3,"5:39","RE, ICE, IC, RB","",339,1,1
+11,"Aachen Hbf","Apolda","7:39 AM","1:30 PM",2,"5:51","ICE, IC, RB","",351,1,1
+11,"Aachen Hbf","Apolda","7:51 AM","2:30 PM",3,"6:39","RE, EC, ICE, RB","",399,1,0
+11,"Aachen Hbf","Apolda","6:51 AM","1:30 PM",3,"6:39","RE, ICE, IC, RB","",399,1,1
+11,"Aachen Hbf","Apolda","7:51 AM","1:30 PM",3,"5:39","RE, ICE, IC, RB","",339,1,1
+11,"Aachen Hbf","Apolda","9:51 AM","4:30 PM",3,"6:39","RE, EC, ICE, RB","",399,1,0
+11,"Aachen Hbf","Apolda","7:51 AM","3:30 PM",4,"7:39","RE, EC, RE, IC, RB","",459,0,1
+11,"Aachen Hbf","Apolda","8:51 AM","3:30 PM",3,"6:39","RE, ICE, IC, RB","",399,1,1
+11,"Aachen Hbf","Apolda","6:51 AM","12:30 PM",3,"5:39","RE, ICE, ICE, RB","",339,1,0
+11,"Aachen Hbf","Apolda","8:51 AM","2:30 PM",3,"5:39","RE, ICE, ICE, RB","",339,1,0
+11,"Aachen Hbf","Apolda","9:51 AM","5:30 PM",4,"7:39","RE, EC, RE, IC, RB","",459,0,1
+12,"Aachen Hbf","Arnstadt Hbf","9:51 AM","2:59 PM",4,"5:08","RE, ICE, IC, RE, RB","",308,1,1
+12,"Aachen Hbf","Arnstadt Hbf","6:51 AM","12:59 PM",4,"6:08","RE, ICE, IC, RE, RB","",368,1,1
+12,"Aachen Hbf","Arnstadt Hbf","7:51 AM","1:08 PM",3,"5:17","RE, ICE, IC, STB","",317,1,1
+12,"Aachen Hbf","Arnstadt Hbf","7:51 AM","2:59 PM",5,"7:08","RE, EC, RE, IC, RE, RB","",428,0,1
+12,"Aachen Hbf","Arnstadt Hbf","9:51 AM","3:08 PM",3,"5:17","RE, ICE, IC, STB","",317,1,1
+12,"Aachen Hbf","Arnstadt Hbf","9:51 AM","3:58 PM",3,"6:07","RE, EC, ICE, EB","",367,1,0
+12,"Aachen Hbf","Arnstadt Hbf","7:39 AM","12:59 PM",3,"5:20","ICE, IC, RE, RB","",320,1,1
+12,"Aachen Hbf","Arnstadt Hbf","8:51 AM","2:59 PM",4,"6:08","RE, ICE, IC, RE, RB","",368,1,1
+12,"Aachen Hbf","Arnstadt Hbf","7:39 AM","1:08 PM",2,"5:29","ICE, IC, STB","",329,1,1
+12,"Aachen Hbf","Arnstadt Hbf","6:51 AM","11:58 AM",3,"5:07","RE, ICE, ICE, EB","",307,1,0
+12,"Aachen Hbf","Arnstadt Hbf","7:51 AM","1:58 PM",3,"6:07","RE, EC, ICE, EB","",367,1,0
+12,"Aachen Hbf","Arnstadt Hbf","7:51 AM","12:59 PM",4,"5:08","RE, ICE, IC, RE, RB","",308,1,1
+12,"Aachen Hbf","Arnstadt Hbf","9:51 AM","4:59 PM",5,"7:08","RE, EC, RE, IC, RE, RB","",428,0,1
+12,"Aachen Hbf","Arnstadt Hbf","8:51 AM","1:58 PM",3,"5:07","RE, ICE, ICE, EB","",307,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","7:51 AM","11:16 AM",3,"3:25","RE, ICE, IC, RE","",205,1,1
+13,"Aachen Hbf","Aschaffenburg Hbf","8:18 AM","11:22 AM",1,"3:04","RE, ICE","",184,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","6:28 AM","9:22 AM",1,"2:54","RE, ICE","",174,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","8:39 AM","11:22 AM",2,"2:43","THA, RB, ICE","",163,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","9:18 AM","12:22 PM",1,"3:04","RE, ICE","",184,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","6:51 AM","11:13 AM",2,"4:22","RE, ICE, RB","",262,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","6:51 AM","10:16 AM",3,"3:25","RE, ICE, ICE, RE","",205,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","7:51 AM","12:13 PM",2,"4:22","RE, EC, RB","",262,0,0
+13,"Aachen Hbf","Aschaffenburg Hbf","7:39 AM","10:22 AM",1,"2:43","ICE, ICE","",163,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","8:51 AM","1:09 PM",2,"4:18","RE, ICE, RB","",258,1,0
+13,"Aachen Hbf","Aschaffenburg Hbf","8:51 AM","12:16 PM",3,"3:25","RE, ICE, ICE, RE","",205,1,0
+14,"Aachen Hbf","Augsburg Hbf","9:51 AM","2:53 PM",2,"5:02","RE, ICE, ICE","",302,1,0
+14,"Aachen Hbf","Augsburg Hbf","8:51 AM","1:53 PM",1,"5:02","RE, ICE","",302,1,0
+14,"Aachen Hbf","Augsburg Hbf","8:51 AM","3:40 PM",3,"6:49","RE, ICE, RB, EC","",409,1,0
+14,"Aachen Hbf","Augsburg Hbf","7:51 AM","1:53 PM",2,"6:02","RE, EC, ICE","",362,1,0
+14,"Aachen Hbf","Augsburg Hbf","6:56 AM","1:40 PM",1,"6:44","RE, EC","",404,0,0
+14,"Aachen Hbf","Augsburg Hbf","7:51 AM","2:37 PM",2,"6:46","RE, EC, IC","",406,0,1
+14,"Aachen Hbf","Augsburg Hbf","7:39 AM","12:53 PM",1,"5:14","ICE, ICE","",314,1,0
+14,"Aachen Hbf","Augsburg Hbf","7:51 AM","12:53 PM",2,"5:02","RE, ICE, ICE","",302,1,0
+14,"Aachen Hbf","Augsburg Hbf","6:51 AM","11:53 AM",1,"5:02","RE, ICE","",302,1,0
+14,"Aachen Hbf","Augsburg Hbf","9:51 AM","3:53 PM",2,"6:02","RE, EC, ICE","",362,1,0
+15,"Aachen Hbf","Bad Belzig","7:39 AM","2:57 PM",4,"7:18","ICE, ICE, IC, RB, RE","",438,1,1
+15,"Aachen Hbf","Bad Belzig","7:51 AM","3:57 PM",3,"8:06","RE, IC, RE, RE","",486,0,1
+15,"Aachen Hbf","Bad Belzig","8:13 AM","4:57 PM",5,"8:44","RE, RE, IC, IC, RB, RE","",524,0,1
+15,"Aachen Hbf","Bad Belzig","8:18 AM","4:57 PM",6,"8:39","RE, RE, RE, IC, IC, RB, RE","",519,0,1
+15,"Aachen Hbf","Bad Belzig","8:39 AM","4:02 PM",3,"7:23","THA, ICE, S, RE","[g0]",443,1,0
+15,"Aachen Hbf","Bad Belzig","9:18 AM","5:02 PM",3,"7:44","RE, ICE, S, RE","[g0]",464,1,0
+15,"Aachen Hbf","Bad Belzig","9:18 AM","4:57 PM",4,"7:39","RE, ICE, IC, RB, RE","",459,1,1
+15,"Aachen Hbf","Bad Belzig","6:18 AM","2:57 PM",6,"8:39","RE, RE, RE, IC, IC, RB, RE","",519,0,1
+15,"Aachen Hbf","Bad Belzig","6:28 AM","2:02 PM",3,"7:34","RE, ICE, S, RE","[g0]",454,1,0
+15,"Aachen Hbf","Bad Belzig","7:39 AM","3:02 PM",3,"7:23","ICE, ICE, S, RE","[g0]",443,1,0
+15,"Aachen Hbf","Bad Belzig","9:18 AM","5:14 PM",2,"7:56","RE, ICE, RE","",476,1,0
+15,"Aachen Hbf","Bad Belzig","6:13 AM","2:57 PM",5,"8:44","RE, RE, IC, IC, RB, RE","",524,0,1
+15,"Aachen Hbf","Bad Belzig","8:51 AM","6:57 PM",4,"10:06","RE, S, IC, RB, RE","",606,0,1
+16,"Aachen Hbf","Bad DŸrkheim","6:51 AM","10:21 AM",2,"3:30","RE, ICE, RNV","",210,1,0
+16,"Aachen Hbf","Bad DŸrkheim","9:51 AM","2:21 PM",2,"4:30","RE, EC, RNV","",270,0,0
+16,"Aachen Hbf","Bad DŸrkheim","7:51 AM","11:21 AM",2,"3:30","RE, ICE, RNV","",210,1,0
+16,"Aachen Hbf","Bad DŸrkheim","6:56 AM","11:28 AM",4,"4:32","RE, EC, RB, RB, RB","",272,0,0
+16,"Aachen Hbf","Bad DŸrkheim","8:51 AM","1:28 PM",4,"4:37","RE, ICE, RE, RB, RB","",277,1,0
+16,"Aachen Hbf","Bad DŸrkheim","7:51 AM","12:21 PM",2,"4:30","RE, EC, RNV","",270,0,0
+16,"Aachen Hbf","Bad DŸrkheim","7:39 AM","10:51 AM",2,"3:12","ICE, ICE, RNV","",192,1,0
+16,"Aachen Hbf","Bad DŸrkheim","8:18 AM","1:28 PM",5,"5:10","RE, RE, RE, RE, RB, RB","",310,0,0
+16,"Aachen Hbf","Bad DŸrkheim","8:51 AM","12:21 PM",2,"3:30","RE, ICE, RNV","",210,1,0
+16,"Aachen Hbf","Bad DŸrkheim","9:51 AM","1:21 PM",2,"3:30","RE, ICE, RNV","",210,1,0
+16,"Aachen Hbf","Bad DŸrkheim","6:56 AM","11:51 AM",3,"4:55","RE, EC, RB, RNV","",295,0,0
+16,"Aachen Hbf","Bad DŸrkheim","8:18 AM","1:51 PM",4,"5:33","RE, RE, RE, RE, RNV","",333,0,0
+17,"Aachen Hbf","Bad Ems","9:18 AM","12:32 PM",2,"3:14","RE, RE, VEC","",194,0,0
+17,"Aachen Hbf","Bad Ems","8:18 AM","11:20 AM",2,"3:02","RE, RE, RE","",182,0,0
+17,"Aachen Hbf","Bad Ems","7:51 AM","10:32 AM",2,"2:41","RE, EC, VEC","",161,0,0
+17,"Aachen Hbf","Bad Ems","6:18 AM","9:20 AM",2,"3:02","RE, RE, RE","",182,0,0
+17,"Aachen Hbf","Bad Ems","7:18 AM","10:32 AM",2,"3:14","RE, RE, VEC","",194,0,0
+17,"Aachen Hbf","Bad Ems","6:51 AM","9:20 AM",2,"2:29","RE, ICE, RE","",149,1,0
+17,"Aachen Hbf","Bad Ems","8:51 AM","11:20 AM",2,"2:29","RE, ICE, RE","",149,1,0
+17,"Aachen Hbf","Bad Ems","9:51 AM","12:32 PM",2,"2:41","RE, EC, VEC","",161,0,0
+18,"Aachen Hbf","Bad Hersfeld","7:51 AM","11:38 AM",2,"3:47","RE, ICE, IC","",227,1,1
+18,"Aachen Hbf","Bad Hersfeld","8:51 AM","1:38 PM",2,"4:47","RE, ICE, IC","",287,1,1
+18,"Aachen Hbf","Bad Hersfeld","8:51 AM","12:47 PM",3,"3:56","RE, ICE, ICE, CAN","",236,1,0
+18,"Aachen Hbf","Bad Hersfeld","6:51 AM","10:47 AM",3,"3:56","RE, ICE, ICE, CAN","",236,1,0
+18,"Aachen Hbf","Bad Hersfeld","7:39 AM","11:38 AM",2,"3:59","ICE, ICE, IC","",239,1,1
+18,"Aachen Hbf","Bad Hersfeld","9:51 AM","1:38 PM",2,"3:47","RE, ICE, IC","",227,1,1
+18,"Aachen Hbf","Bad Hersfeld","9:18 AM","1:38 PM",3,"4:20","RE, ICE, ICE, IC","",260,1,1
+18,"Aachen Hbf","Bad Hersfeld","6:51 AM","11:38 AM",2,"4:47","RE, ICE, IC","",287,1,1
+18,"Aachen Hbf","Bad Hersfeld","8:18 AM","12:47 PM",3,"4:29","RE, ICE, ICE, CAN","",269,1,0
+18,"Aachen Hbf","Bad Hersfeld","6:28 AM","10:47 AM",3,"4:19","RE, ICE, ICE, CAN","",259,1,0
+18,"Aachen Hbf","Bad Hersfeld","7:39 AM","11:38 AM",1,"3:59","ICE, IC","",239,1,1
+18,"Aachen Hbf","Bad Hersfeld","9:51 AM","2:47 PM",3,"4:56","RE, EC, ICE, CAN","",296,1,0
+18,"Aachen Hbf","Bad Hersfeld","8:39 AM","12:47 PM",4,"4:08","THA, RB, ICE, ICE, CAN","",248,1,0
+18,"Aachen Hbf","Bad Hersfeld","7:51 AM","12:47 PM",3,"4:56","RE, EC, ICE, CAN","",296,1,0
+19,"Aachen Hbf","Bad Homburg","8:18 AM","11:15 AM",2,"2:57","RE, ICE, S","",177,1,0
+19,"Aachen Hbf","Bad Homburg","8:18 AM","12:44 PM",4,"4:26","RE, HLB, RE, HLB, S","",266,0,0
+19,"Aachen Hbf","Bad Homburg","7:51 AM","10:45 AM",3,"2:54","RE, ICE, ICE, S","",174,1,0
+19,"Aachen Hbf","Bad Homburg","6:51 AM","10:45 AM",2,"3:54","RE, ICE, S","",234,1,0
+19,"Aachen Hbf","Bad Homburg","6:18 AM","9:15 AM",2,"2:57","RE, ICE, S","",177,1,0
+19,"Aachen Hbf","Bad Homburg","7:51 AM","12:15 PM",3,"4:24","RE, EC, RE, S","",264,0,0
+19,"Aachen Hbf","Bad Homburg","8:39 AM","11:15 AM",3,"2:36","THA, RB, ICE, S","",156,1,0
+19,"Aachen Hbf","Bad Homburg","6:28 AM","9:30 AM",2,"3:02","RE, ICE, S","",182,1,0
+19,"Aachen Hbf","Bad Homburg","7:51 AM","11:45 AM",3,"3:54","RE, EC, ICE, S","",234,1,0
+19,"Aachen Hbf","Bad Homburg","6:51 AM","9:45 AM",3,"2:54","RE, ICE, ICE, S","",174,1,0
+19,"Aachen Hbf","Bad Homburg","8:51 AM","11:45 AM",3,"2:54","RE, ICE, ICE, S","",174,1,0
+19,"Aachen Hbf","Bad Homburg","8:51 AM","12:45 PM",2,"3:54","RE, ICE, S","",234,1,0
+19,"Aachen Hbf","Bad Homburg","8:39 AM","12:44 PM",5,"4:05","THA, RE, HLB, RE, HLB, S","",245,0,0
+19,"Aachen Hbf","Bad Homburg","6:18 AM","10:44 AM",4,"4:26","RE, HLB, RE, HLB, S","",266,0,0
+19,"Aachen Hbf","Bad Homburg","7:39 AM","10:03 AM",1,"2:24","ICE, S","",144,1,0
+19,"Aachen Hbf","Bad Homburg","9:18 AM","1:56 PM",3,"4:38","RE, HLB, HLB, HLB","",278,0,0
+19,"Aachen Hbf","Bad Homburg","9:18 AM","12:30 PM",2,"3:12","RE, ICE, S","",192,1,0
+19,"Aachen Hbf","Bad Homburg","7:39 AM","11:44 AM",4,"4:05","ICE, RE, HLB, HLB, S","",245,1,0
+20,"Aachen Hbf","Bad Kissingen","7:51 AM","12:53 PM",3,"5:02","RE, ICE, ICE, RE","",302,1,0
+20,"Aachen Hbf","Bad Kissingen","9:18 AM","2:53 PM",2,"5:35","RE, ICE, RE","",335,1,0
+20,"Aachen Hbf","Bad Kissingen","7:51 AM","2:22 PM",4,"6:31","RE, EC, ICE, RE, EB","",391,1,0
+20,"Aachen Hbf","Bad Kissingen","7:39 AM","12:24 PM",3,"4:45","ICE, ICE, RB, EB","",285,1,0
+20,"Aachen Hbf","Bad Kissingen","7:39 AM","12:53 PM",2,"5:14","ICE, ICE, RE","",314,1,0
+20,"Aachen Hbf","Bad Kissingen","8:51 AM","2:53 PM",2,"6:02","RE, ICE, RE","",362,1,0
+20,"Aachen Hbf","Bad Kissingen","9:51 AM","2:53 PM",3,"5:02","RE, ICE, ICE, RE","",302,1,0
+20,"Aachen Hbf","Bad Kissingen","8:51 AM","2:22 PM",4,"5:31","RE, ICE, ICE, RE, EB","",331,1,0
+20,"Aachen Hbf","Bad Kissingen","8:18 AM","1:27 PM",3,"5:09","RE, ICE, RE, EB","",309,1,0
+20,"Aachen Hbf","Bad Kissingen","6:28 AM","11:27 AM",3,"4:59","RE, ICE, RE, EB","",299,1,0
+20,"Aachen Hbf","Bad Kissingen","8:39 AM","1:27 PM",4,"4:48","THA, RB, ICE, RE, EB","",288,1,0
+20,"Aachen Hbf","Bad Kissingen","9:51 AM","3:59 PM",4,"6:08","RE, EC, RB, RE, EB","",368,0,0
+20,"Aachen Hbf","Bad Kissingen","7:51 AM","2:22 PM",4,"6:31","RE, EC, RB, RE, EB","",391,0,0
+20,"Aachen Hbf","Bad Kissingen","6:51 AM","11:59 AM",4,"5:08","RE, ICE, ICE, RE, EB","",308,1,0
+20,"Aachen Hbf","Bad Kissingen","9:51 AM","3:59 PM",4,"6:08","RE, EC, ICE, RE, EB","",368,1,0
+20,"Aachen Hbf","Bad Kissingen","6:51 AM","12:53 PM",2,"6:02","RE, ICE, RE","",362,1,0
+21,"Aachen Hbf","Bad Kreuznach","7:39 AM","11:25 AM",1,"3:46","ICE, RE","",226,1,0
+21,"Aachen Hbf","Bad Kreuznach","7:51 AM","11:01 AM",3,"3:10","RE, ICE, IC, RB","",190,1,1
+21,"Aachen Hbf","Bad Kreuznach","8:51 AM","12:01 PM",3,"3:10","RE, ICE, ICE, RB","",190,1,0
+21,"Aachen Hbf","Bad Kreuznach","7:18 AM","11:15 AM",3,"3:57","RE, RE, IC, RB","",237,0,1
+21,"Aachen Hbf","Bad Kreuznach","6:18 AM","10:15 AM",3,"3:57","RE, RE, EC, RB","",237,0,0
+21,"Aachen Hbf","Bad Kreuznach","9:51 AM","1:15 PM",2,"3:24","RE, IC, RB","",204,0,1
+21,"Aachen Hbf","Bad Kreuznach","7:39 AM","10:25 AM",2,"2:46","ICE, S, RE","",166,1,0
+21,"Aachen Hbf","Bad Kreuznach","9:51 AM","1:01 PM",3,"3:10","RE, ICE, IC, RB","",190,1,1
+21,"Aachen Hbf","Bad Kreuznach","7:51 AM","11:15 AM",2,"3:24","RE, IC, RB","",204,0,1
+21,"Aachen Hbf","Bad Kreuznach","9:18 AM","1:15 PM",3,"3:57","RE, RE, IC, RB","",237,0,1
+21,"Aachen Hbf","Bad Kreuznach","6:51 AM","10:01 AM",3,"3:10","RE, ICE, ICE, RB","",190,1,0
+21,"Aachen Hbf","Bad Kreuznach","8:51 AM","12:15 PM",3,"3:24","RE, ICE, RE, RB","",204,1,0
+21,"Aachen Hbf","Bad Kreuznach","8:51 AM","12:24 PM",2,"3:33","RE, ICE, RE","",213,1,0
+21,"Aachen Hbf","Bad Kreuznach","6:56 AM","10:15 AM",2,"3:19","RE, EC, RB","",199,0,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","6:18 AM","1:39 PM",6,"7:21","RE, HLB, RE, HLB, RE, RE, EB","",441,0,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","7:39 AM","12:35 PM",3,"4:56","ICE, ICE, RB, EB","",296,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","7:51 AM","2:35 PM",5,"6:44","RE, EC, RB, RE, RE, EB","",404,0,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","9:51 AM","2:56 PM",3,"5:05","RE, ICE, ICE, RE","",305,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","8:51 AM","2:35 PM",3,"5:44","RE, ICE, RE, EB","",344,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","7:51 AM","2:56 PM",4,"7:05","RE, EC, RB, RE, RE","",425,0,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","8:39 AM","1:39 PM",4,"5:00","THA, RB, ICE, RE, EB","",300,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","6:28 AM","11:39 AM",3,"5:11","RE, ICE, RE, EB","",311,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","9:51 AM","2:35 PM",4,"4:44","RE, ICE, ICE, RE, EB","",284,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","8:18 AM","1:39 PM",3,"5:21","RE, ICE, RE, EB","",321,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","9:18 AM","2:35 PM",3,"5:17","RE, ICE, RB, EB","",317,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","7:51 AM","12:56 PM",3,"5:05","RE, ICE, ICE, RE","",305,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","9:18 AM","2:56 PM",2,"5:38","RE, ICE, RE","",338,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","9:51 AM","4:35 PM",5,"6:44","RE, EC, ICE, RE, EB, EB","",404,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","6:51 AM","12:56 PM",2,"6:05","RE, ICE, RE","",365,1,0
+22,"Aachen Hbf","Bad Neustadt(Saale)","7:39 AM","12:56 PM",2,"5:17","ICE, ICE, RE","",317,1,0
+23,"Aachen Hbf","Bad Oldesloe","8:51 AM","3:02 PM",2,"6:11","RE, IC, RE","",371,0,1
+23,"Aachen Hbf","Bad Oldesloe","6:56 AM","1:02 PM",2,"6:06","RE, IC, RE","",366,0,1
+23,"Aachen Hbf","Bad Oldesloe","9:18 AM","3:30 PM",3,"6:12","RE, ICE, ICE, RE","",372,1,0
+23,"Aachen Hbf","Bad Oldesloe","7:39 AM","1:30 PM",3,"5:51","ICE, ICE, ICE, RE","",351,1,0
+23,"Aachen Hbf","Bad Oldesloe","7:51 AM","2:02 PM",2,"6:11","RE, IC, RE","",371,0,1
+23,"Aachen Hbf","Bad Oldesloe","6:28 AM","12:30 PM",3,"6:02","RE, ICE, ICE, RE","",362,1,0
+23,"Aachen Hbf","Bad Oldesloe","8:39 AM","2:30 PM",3,"5:51","THA, ICE, ICE, RE","",351,1,0
+24,"Aachen Hbf","Bad Reichenhall","7:39 AM","3:59 PM",3,"8:20","ICE, ICE, RJ, S","",500,1,0
+24,"Aachen Hbf","Bad Reichenhall","6:28 AM","2:45 PM",3,"8:17","RE, ICE, EC, BLB","",497,1,0
+24,"Aachen Hbf","Bad Reichenhall","8:39 AM","4:24 PM",4,"7:45","THA, RB, ICE, EC, RE","",465,1,0
+24,"Aachen Hbf","Bad Reichenhall","6:56 AM","4:24 PM",2,"9:28","RE, EC, RE","",568,0,0
+24,"Aachen Hbf","Bad Reichenhall","6:51 AM","3:03 PM",3,"8:12","RE, ICE, RE, BLB","",492,1,0
+24,"Aachen Hbf","Bad Reichenhall","8:51 AM","5:03 PM",3,"8:12","RE, ICE, RE, BLB","",492,1,0
+24,"Aachen Hbf","Bad Reichenhall","7:51 AM","5:03 PM",4,"9:12","RE, EC, ICE, RE, BLB","",552,1,0
+24,"Aachen Hbf","Bad Reichenhall","8:18 AM","4:24 PM",3,"8:06","RE, ICE, EC, RE","",486,1,0
+24,"Aachen Hbf","Bad Reichenhall","7:51 AM","3:59 PM",4,"8:08","RE, ICE, ICE, RE, BLB","",488,1,0
+24,"Aachen Hbf","Bad Reichenhall","9:18 AM","5:45 PM",3,"8:27","RE, ICE, RJ, S","",507,1,0
+24,"Aachen Hbf","Bad Reichenhall","7:39 AM","4:24 PM",2,"8:45","ICE, ICE, IC","",525,1,1
+24,"Aachen Hbf","Bad Reichenhall","8:51 AM","6:45 PM",4,"9:54","RE, ICE, RB, EC, BLB","",594,1,0
+25,"Aachen Hbf","Bad Salzungen","8:51 AM","2:40 PM",3,"5:49","RE, ICE, IC, STB","",349,1,1
+25,"Aachen Hbf","Bad Salzungen","7:39 AM","12:40 PM",2,"5:01","ICE, IC, STB","",301,1,1
+25,"Aachen Hbf","Bad Salzungen","6:51 AM","12:40 PM",3,"5:49","RE, ICE, IC, STB","",349,1,1
+25,"Aachen Hbf","Bad Salzungen","8:51 AM","1:40 PM",3,"4:49","RE, ICE, ICE, STB","",289,1,0
+25,"Aachen Hbf","Bad Salzungen","7:51 AM","12:40 PM",3,"4:49","RE, ICE, IC, STB","",289,1,1
+25,"Aachen Hbf","Bad Salzungen","7:51 AM","1:40 PM",3,"5:49","RE, EC, ICE, STB","",349,1,0
+25,"Aachen Hbf","Bad Salzungen","9:51 AM","3:40 PM",3,"5:49","RE, EC, ICE, STB","",349,1,0
+25,"Aachen Hbf","Bad Salzungen","9:51 AM","2:40 PM",3,"4:49","RE, ICE, IC, STB","",289,1,1
+25,"Aachen Hbf","Bad Salzungen","6:51 AM","11:40 AM",3,"4:49","RE, ICE, ICE, STB","",289,1,0
+26,"Aachen Hbf","Bad Segeberg","8:39 AM","2:58 PM",4,"6:19","THA, ICE, ICE, RE, NBE","",379,1,0
+26,"Aachen Hbf","Bad Segeberg","9:18 AM","3:58 PM",4,"6:40","RE, ICE, ICE, RE, NBE","",400,1,0
+26,"Aachen Hbf","Bad Segeberg","6:28 AM","12:58 PM",4,"6:30","RE, ICE, ICE, RE, NBE","",390,1,0
+26,"Aachen Hbf","Bad Segeberg","9:18 AM","5:01 PM",3,"7:43","RE, ICE, ICE, NBE","",463,1,0
+26,"Aachen Hbf","Bad Segeberg","7:51 AM","2:58 PM",3,"7:07","RE, IC, RB, NBE","",427,0,1
+26,"Aachen Hbf","Bad Segeberg","6:56 AM","1:58 PM",3,"7:02","RE, IC, RB, NBE","",422,0,1
+26,"Aachen Hbf","Bad Segeberg","8:51 AM","3:58 PM",3,"7:07","RE, IC, RB, NBE","",427,0,1
+26,"Aachen Hbf","Bad Segeberg","7:39 AM","1:58 PM",4,"6:19","ICE, ICE, ICE, RE, NBE","",379,1,0
+27,"Aachen Hbf","Bad Tšlz","6:56 AM","4:00 PM",2,"9:04","RE, EC, BOB","",544,0,0
+27,"Aachen Hbf","Bad Tšlz","7:51 AM","4:00 PM",3,"8:09","RE, EC, ICE, BOB","",489,1,0
+27,"Aachen Hbf","Bad Tšlz","7:51 AM","5:00 PM",3,"9:09","RE, EC, IC, BOB","",549,0,1
+27,"Aachen Hbf","Bad Tšlz","9:51 AM","5:00 PM",3,"7:09","RE, ICE, ICE, BOB","",429,1,0
+27,"Aachen Hbf","Bad Tšlz","9:18 AM","5:00 PM",2,"7:42","RE, ICE, BOB","",462,1,0
+27,"Aachen Hbf","Bad Tšlz","6:51 AM","2:00 PM",2,"7:09","RE, ICE, BOB","",429,1,0
+27,"Aachen Hbf","Bad Tšlz","9:51 AM","6:00 PM",3,"8:09","RE, EC, ICE, BOB","",489,1,0
+27,"Aachen Hbf","Bad Tšlz","7:51 AM","3:00 PM",3,"7:09","RE, ICE, ICE, BOB","",429,1,0
+27,"Aachen Hbf","Bad Tšlz","6:51 AM","3:00 PM",2,"8:09","RE, ICE, BOB","",489,1,0
+27,"Aachen Hbf","Bad Tšlz","7:39 AM","3:00 PM",2,"7:21","ICE, ICE, BOB","",441,1,0
+27,"Aachen Hbf","Bad Tšlz","8:51 AM","4:00 PM",2,"7:09","RE, ICE, BOB","",429,1,0
+27,"Aachen Hbf","Bad Tšlz","8:51 AM","5:26 PM",3,"8:35","RE, ICE, ICE, BOB","",515,1,0
+28,"Aachen Hbf","Baden-Baden","7:51 AM","12:05 PM",1,"4:14","RE, EC","",254,0,0
+28,"Aachen Hbf","Baden-Baden","7:51 AM","11:24 AM",2,"3:33","RE, ICE, ICE","",213,1,0
+28,"Aachen Hbf","Baden-Baden","6:51 AM","10:29 AM",3,"3:38","RE, ICE, ICE, RE","",218,1,0
+28,"Aachen Hbf","Baden-Baden","7:39 AM","11:24 AM",1,"3:45","ICE, ICE","",225,1,0
+28,"Aachen Hbf","Baden-Baden","9:51 AM","1:24 PM",2,"3:33","RE, ICE, ICE","",213,1,0
+28,"Aachen Hbf","Baden-Baden","9:51 AM","2:05 PM",1,"4:14","RE, EC","",254,0,0
+28,"Aachen Hbf","Baden-Baden","8:51 AM","12:29 PM",3,"3:38","RE, ICE, ICE, RE","",218,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","9:51 AM","3:30 PM",3,"5:39","RE, EC, ICE, IRE","",339,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","9:51 AM","3:13 PM",4,"5:22","RE, ICE, ICE, RE, HzL","",322,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","7:51 AM","1:15 PM",4,"5:24","RE, ICE, ICE, RE, HzL","",324,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","7:51 AM","1:30 PM",3,"5:39","RE, EC, ICE, IRE","",339,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","7:39 AM","1:15 PM",3,"5:36","ICE, ICE, RE, HzL","",336,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","6:51 AM","11:30 AM",2,"4:39","RE, ICE, IRE","",279,1,0
+29,"Aachen Hbf","Balingen(WŸrtt)","8:51 AM","1:30 PM",2,"4:39","RE, ICE, IRE","",279,1,0
+30,"Aachen Hbf","Bamberg","9:18 AM","2:34 PM",2,"5:16","RE, ICE, RE","",316,1,0
+30,"Aachen Hbf","Bamberg","6:51 AM","12:34 PM",2,"5:43","RE, ICE, RE","",343,1,0
+30,"Aachen Hbf","Bamberg","7:51 AM","12:34 PM",3,"4:43","RE, ICE, ICE, RE","",283,1,0
+30,"Aachen Hbf","Bamberg","8:39 AM","1:17 PM",3,"4:38","THA, RB, ICE, RB","",278,1,0
+30,"Aachen Hbf","Bamberg","9:51 AM","2:34 PM",3,"4:43","RE, ICE, ICE, RE","",283,1,0
+30,"Aachen Hbf","Bamberg","6:28 AM","11:17 AM",2,"4:49","RE, ICE, RB","",289,1,0
+30,"Aachen Hbf","Bamberg","8:51 AM","2:34 PM",2,"5:43","RE, ICE, RE","",343,1,0
+30,"Aachen Hbf","Bamberg","9:51 AM","4:17 PM",4,"6:26","RE, EC, ICE, ICE, RB","",386,1,0
+30,"Aachen Hbf","Bamberg","7:39 AM","12:17 PM",2,"4:38","ICE, ICE, RB","",278,1,0
+30,"Aachen Hbf","Bamberg","8:18 AM","1:17 PM",2,"4:59","RE, ICE, RB","",299,1,0
+31,"Aachen Hbf","Bautzen","8:18 AM","6:37 PM",7,"10:19","RE, RE, RE, IC, IC, IC, RB, OE","",619,0,1
+31,"Aachen Hbf","Bautzen","8:39 AM","6:12 PM",3,"9:33","THA, ICE, EC, RE","",573,1,0
+31,"Aachen Hbf","Bautzen","8:13 AM","6:37 PM",6,"10:24","RE, RE, IC, IC, IC, RB, OE","",624,0,1
+31,"Aachen Hbf","Bautzen","7:39 AM","4:57 PM",2,"9:18","ICE, ICE, RE","",558,1,0
+31,"Aachen Hbf","Bautzen","8:13 AM","6:57 PM",5,"10:44","RE, RE, IC, IC, IC, RE","",644,0,1
+31,"Aachen Hbf","Bautzen","6:51 AM","2:57 PM",3,"8:06","RE, ICE, ICE, RE","",486,1,0
+31,"Aachen Hbf","Bautzen","7:51 AM","6:57 PM",3,"11:06","RE, IC, IC, RE","",666,0,1
+31,"Aachen Hbf","Bautzen","7:51 AM","4:57 PM",3,"9:06","RE, EC, ICE, RE","",546,1,0
+31,"Aachen Hbf","Bautzen","6:18 AM","4:57 PM",5,"10:39","RE, RE, RE, IC, IC, RE","",639,0,1
+31,"Aachen Hbf","Bautzen","8:18 AM","6:57 PM",6,"10:39","RE, RE, RE, IC, IC, IC, RE","",639,0,1
+31,"Aachen Hbf","Bautzen","8:51 AM","4:57 PM",3,"8:06","RE, ICE, ICE, RE","",486,1,0
+31,"Aachen Hbf","Bautzen","9:18 AM","6:37 PM",5,"9:19","RE, ICE, IC, IC, RB, OE","",559,1,1
+31,"Aachen Hbf","Bautzen","6:18 AM","4:37 PM",6,"10:19","RE, RE, RE, IC, IC, RB, OE","",619,0,1
+31,"Aachen Hbf","Bautzen","6:28 AM","3:48 PM",4,"9:20","RE, ICE, RE, OE, RE","",560,1,0
+31,"Aachen Hbf","Bautzen","6:13 AM","4:57 PM",4,"10:44","RE, RE, IC, IC, RE","",644,0,1
+31,"Aachen Hbf","Bautzen","7:39 AM","4:37 PM",4,"8:58","ICE, ICE, IC, RB, OE","",538,1,1
+31,"Aachen Hbf","Bautzen","9:51 AM","6:57 PM",3,"9:06","RE, EC, ICE, RE","",546,1,0
+31,"Aachen Hbf","Bautzen","9:51 AM","6:37 PM",4,"8:46","RE, ICE, IC, RB, OE","",526,1,1
+31,"Aachen Hbf","Bautzen","6:13 AM","4:37 PM",5,"10:24","RE, RE, IC, IC, RB, OE","",624,0,1
+31,"Aachen Hbf","Bautzen","7:51 AM","6:37 PM",4,"10:46","RE, IC, IC, RB, OE","",646,0,1
+32,"Aachen Hbf","Bayreuth Hbf","8:18 AM","2:55 PM",2,"6:37","RE, ICE, RE","",397,1,0
+32,"Aachen Hbf","Bayreuth Hbf","7:51 AM","1:30 PM",3,"5:39","RE, ICE, ICE, IRE","",339,1,0
+32,"Aachen Hbf","Bayreuth Hbf","8:51 AM","3:30 PM",2,"6:39","RE, ICE, IRE","",399,1,0
+32,"Aachen Hbf","Bayreuth Hbf","9:51 AM","5:30 PM",4,"7:39","RE, EC, ICE, ICE, IRE","",459,1,0
+32,"Aachen Hbf","Bayreuth Hbf","6:18 AM","2:55 PM",7,"8:37","RE, HLB, RE, HLB, RE, RE, RE, RE","",517,0,0
+32,"Aachen Hbf","Bayreuth Hbf","6:28 AM","12:55 PM",2,"6:27","RE, ICE, RE","",387,1,0
+32,"Aachen Hbf","Bayreuth Hbf","6:51 AM","1:30 PM",2,"6:39","RE, ICE, IRE","",399,1,0
+32,"Aachen Hbf","Bayreuth Hbf","9:18 AM","3:30 PM",2,"6:12","RE, ICE, IRE","",372,1,0
+32,"Aachen Hbf","Bayreuth Hbf","8:39 AM","2:55 PM",3,"6:16","THA, RB, ICE, RE","",376,1,0
+32,"Aachen Hbf","Bayreuth Hbf","8:18 AM","4:55 PM",7,"8:37","RE, HLB, RE, HLB, RE, RE, RE, RE","",517,0,0
+32,"Aachen Hbf","Bayreuth Hbf","9:51 AM","3:30 PM",3,"5:39","RE, ICE, ICE, IRE","",339,1,0
+32,"Aachen Hbf","Bayreuth Hbf","7:39 AM","1:30 PM",2,"5:51","ICE, ICE, IRE","",351,1,0
+33,"Aachen Hbf","Beeskow","8:18 AM","5:20 PM",5,"9:02","RE, RE, RE, IC, RE, OE","",542,0,1
+33,"Aachen Hbf","Beeskow","6:28 AM","2:20 PM",3,"7:52","RE, ICE, RE, OE","",472,1,0
+33,"Aachen Hbf","Beeskow","7:39 AM","3:20 PM",3,"7:41","ICE, ICE, RE, OE","",461,1,0
+33,"Aachen Hbf","Beeskow","9:18 AM","5:20 PM",3,"8:02","RE, ICE, RE, OE","",482,1,0
+33,"Aachen Hbf","Beeskow","8:13 AM","5:20 PM",4,"9:07","RE, RE, IC, RE, OE","",547,0,1
+33,"Aachen Hbf","Beeskow","8:39 AM","4:20 PM",3,"7:41","THA, ICE, RE, OE","",461,1,0
+33,"Aachen Hbf","Beeskow","6:13 AM","3:20 PM",4,"9:07","RE, RE, IC, RE, OE","",547,0,1
+33,"Aachen Hbf","Beeskow","6:18 AM","3:20 PM",5,"9:02","RE, RE, RE, IC, RE, OE","",542,0,1
+34,"Aachen Hbf","Bergheim(Erft)","8:39 AM","9:56 AM",1,"1:17","THA, RB","",77,0,0
+34,"Aachen Hbf","Bergheim(Erft)","7:18 AM","8:26 AM",1,"1:08","RE, RB","",68,0,0
+34,"Aachen Hbf","Bergheim(Erft)","6:28 AM","7:26 AM",1,"0:58","RE, RB","",58,0,0
+34,"Aachen Hbf","Bergheim(Erft)","8:18 AM","9:26 AM",1,"1:08","RE, RB","",68,0,0
+34,"Aachen Hbf","Bergheim(Erft)","7:39 AM","8:56 AM",1,"1:17","ICE, RB","",77,1,0
+34,"Aachen Hbf","Bergheim(Erft)","9:18 AM","10:26 AM",1,"1:08","RE, RB","",68,0,0
+35,"Aachen Hbf","Bergisch Gladbach","8:18 AM","9:47 AM",1,"1:29","RE, S","",89,0,0
+35,"Aachen Hbf","Bergisch Gladbach","6:28 AM","8:07 AM",1,"1:39","RE, S","",99,0,0
+35,"Aachen Hbf","Bergisch Gladbach","9:18 AM","10:47 AM",1,"1:29","RE, S","",89,0,0
+35,"Aachen Hbf","Bergisch Gladbach","7:39 AM","8:47 AM",1,"1:08","ICE, S","",68,1,0
+35,"Aachen Hbf","Bergisch Gladbach","8:51 AM","10:27 AM",1,"1:36","RE, S","",96,0,0
+35,"Aachen Hbf","Bergisch Gladbach","8:39 AM","9:47 AM",1,"1:08","THA, S","",68,0,0
+35,"Aachen Hbf","Bergisch Gladbach","6:56 AM","8:27 AM",1,"1:31","RE, S","",91,0,0
+35,"Aachen Hbf","Bergisch Gladbach","7:51 AM","9:27 AM",1,"1:36","RE, S","",96,0,0
+35,"Aachen Hbf","Bergisch Gladbach","6:18 AM","7:47 AM",1,"1:29","RE, S","",89,0,0
+35,"Aachen Hbf","Bergisch Gladbach","7:18 AM","8:47 AM",1,"1:29","RE, S","",89,0,0
+36,"Aachen Hbf","Berlin Hbf","8:18 AM","3:20 PM",3,"7:02","RE, RE, RE, IC","",422,0,1
+36,"Aachen Hbf","Berlin Hbf","6:13 AM","1:19 PM",2,"7:06","RE, RE, IC","",426,0,1
+36,"Aachen Hbf","Berlin Hbf","7:39 AM","1:11 PM",1,"5:32","ICE, ICE","",332,1,0
+36,"Aachen Hbf","Berlin Hbf","6:18 AM","1:19 PM",3,"7:01","RE, RE, RE, IC","",421,0,1
+36,"Aachen Hbf","Berlin Hbf","8:39 AM","2:12 PM",1,"5:33","THA, ICE","",333,1,0
+36,"Aachen Hbf","Berlin Hbf","8:13 AM","3:20 PM",2,"7:07","RE, RE, IC","",427,0,1
+36,"Aachen Hbf","Berlin Hbf","6:28 AM","12:11 PM",1,"5:43","RE, ICE","",343,1,0
+36,"Aachen Hbf","Berlin Hbf","9:18 AM","3:11 PM",1,"5:53","RE, ICE","",353,1,0
+37,"Aachen Hbf","Bernburg","8:51 AM","5:55 PM",4,"9:04","RE, S, IC, IC, RB","",544,0,1
+37,"Aachen Hbf","Bernburg","6:13 AM","1:55 PM",4,"7:42","RE, RE, IC, IC, RB","",462,0,1
+37,"Aachen Hbf","Bernburg","8:13 AM","3:55 PM",4,"7:42","RE, RE, IC, IC, RB","",462,0,1
+37,"Aachen Hbf","Bernburg","7:51 AM","2:52 PM",2,"7:01","RE, IC, RB","",421,0,1
+37,"Aachen Hbf","Bernburg","7:39 AM","1:55 PM",3,"6:16","ICE, ICE, IC, RB","",376,1,1
+37,"Aachen Hbf","Bernburg","6:18 AM","1:55 PM",5,"7:37","RE, RE, RE, IC, IC, RB","",457,0,1
+37,"Aachen Hbf","Bernburg","9:18 AM","3:55 PM",3,"6:37","RE, ICE, IC, RB","",397,1,1
+37,"Aachen Hbf","Bernburg","8:18 AM","3:55 PM",5,"7:37","RE, RE, RE, IC, IC, RB","",457,0,1
+38,"Aachen Hbf","Biberach(Ri§)","7:39 AM","12:48 PM",2,"5:09","ICE, ICE, RB","",309,1,0
+38,"Aachen Hbf","Biberach(Ri§)","8:51 AM","2:18 PM",2,"5:27","RE, ICE, RB","",327,1,0
+38,"Aachen Hbf","Biberach(Ri§)","9:51 AM","3:48 PM",3,"5:57","RE, EC, ICE, RB","",357,1,0
+38,"Aachen Hbf","Biberach(Ri§)","7:51 AM","2:18 PM",3,"6:27","RE, EC, ICE, RB","",387,1,0
+38,"Aachen Hbf","Biberach(Ri§)","7:51 AM","12:48 PM",3,"4:57","RE, ICE, ICE, RB","",297,1,0
+38,"Aachen Hbf","Biberach(Ri§)","9:51 AM","2:47 PM",3,"4:56","RE, ICE, ICE, RB","",296,1,0
+38,"Aachen Hbf","Biberach(Ri§)","6:56 AM","2:18 PM",2,"7:22","RE, EC, RB","",442,0,0
+39,"Aachen Hbf","Bielefeld Hbf","7:18 AM","10:58 AM",2,"3:40","RE, RE, RE","",220,0,0
+39,"Aachen Hbf","Bielefeld Hbf","8:39 AM","11:35 AM",1,"2:56","THA, ICE","",176,1,0
+39,"Aachen Hbf","Bielefeld Hbf","9:13 AM","12:58 PM",1,"3:45","RE, RE","",225,0,0
+39,"Aachen Hbf","Bielefeld Hbf","6:28 AM","9:35 AM",1,"3:07","RE, ICE","",187,1,0
+39,"Aachen Hbf","Bielefeld Hbf","8:18 AM","11:58 AM",2,"3:40","RE, RE, RE","",220,0,0
+39,"Aachen Hbf","Bielefeld Hbf","8:51 AM","12:32 PM",1,"3:41","RE, ERB","",221,0,0
+39,"Aachen Hbf","Bielefeld Hbf","6:18 AM","9:58 AM",2,"3:40","RE, RE, RE","",220,0,0
+39,"Aachen Hbf","Bielefeld Hbf","9:18 AM","12:58 PM",2,"3:40","RE, RE, RE","",220,0,0
+39,"Aachen Hbf","Bielefeld Hbf","6:13 AM","9:58 AM",1,"3:45","RE, RE","",225,0,0
+39,"Aachen Hbf","Bielefeld Hbf","7:13 AM","10:58 AM",1,"3:45","RE, RE","",225,0,0
+39,"Aachen Hbf","Bielefeld Hbf","7:39 AM","10:36 AM",1,"2:57","ICE, ICE","",177,1,0
+39,"Aachen Hbf","Bielefeld Hbf","6:51 AM","10:32 AM",1,"3:41","RE, ERB","",221,0,0
+39,"Aachen Hbf","Bielefeld Hbf","8:13 AM","11:58 AM",1,"3:45","RE, RE","",225,0,0
+39,"Aachen Hbf","Bielefeld Hbf","9:18 AM","12:36 PM",1,"3:18","RE, ICE","",198,1,0
+39,"Aachen Hbf","Bielefeld Hbf","7:51 AM","11:13 AM",1,"3:22","RE, IC","",202,0,1
+40,"Aachen Hbf","Bitburg-Erdorf","6:18 AM","9:34 AM",1,"3:16","RE, RE","",196,0,0
+40,"Aachen Hbf","Bitburg-Erdorf","8:18 AM","11:31 AM",1,"3:13","RE, RE","",193,0,0
+40,"Aachen Hbf","Bitburg-Erdorf","7:18 AM","10:54 AM",1,"3:36","RE, RE","",216,0,0
+40,"Aachen Hbf","Bitburg-Erdorf","9:18 AM","12:54 PM",1,"3:36","RE, RE","",216,0,0
+41,"Aachen Hbf","Bochum Hbf","7:13 AM","9:24 AM",1,"2:11","RE, RE","",131,0,0
+41,"Aachen Hbf","Bochum Hbf","8:51 AM","11:03 AM",0,"2:12","RE","",132,0,0
+41,"Aachen Hbf","Bochum Hbf","8:13 AM","10:24 AM",1,"2:11","RE, RE","",131,0,0
+41,"Aachen Hbf","Bochum Hbf","6:13 AM","8:24 AM",1,"2:11","RE, RE","",131,0,0
+41,"Aachen Hbf","Bochum Hbf","6:18 AM","8:33 AM",2,"2:15","RE, S, ICE","",135,1,0
+41,"Aachen Hbf","Bochum Hbf","7:51 AM","10:03 AM",0,"2:12","RE","",132,0,0
+41,"Aachen Hbf","Bochum Hbf","9:13 AM","11:24 AM",1,"2:11","RE, RE","",131,0,0
+41,"Aachen Hbf","Bochum Hbf","8:39 AM","10:33 AM",1,"1:54","THA, ICE","",114,1,0
+41,"Aachen Hbf","Bochum Hbf","6:51 AM","9:03 AM",0,"2:12","RE","",132,0,0
+41,"Aachen Hbf","Bochum Hbf","7:39 AM","9:33 AM",1,"1:54","ICE, ICE","",114,1,0
+41,"Aachen Hbf","Bochum Hbf","6:56 AM","9:09 AM",1,"2:13","RE, ICE","",133,1,0
+42,"Aachen Hbf","Bonn Hbf","6:51 AM","8:12 AM",1,"1:21","RE, ICE","",81,1,0
+42,"Aachen Hbf","Bonn Hbf","6:28 AM","8:06 AM",1,"1:38","RE, RB","",98,0,0
+42,"Aachen Hbf","Bonn Hbf","6:56 AM","8:35 AM",1,"1:39","RE, EC","",99,0,0
+42,"Aachen Hbf","Bonn Hbf","7:51 AM","9:12 AM",1,"1:21","RE, EC","",81,0,0
+42,"Aachen Hbf","Bonn Hbf","7:39 AM","8:55 AM",1,"1:16","ICE, RE","",76,1,0
+42,"Aachen Hbf","Bonn Hbf","6:18 AM","7:55 AM",1,"1:37","RE, RE","",97,0,0
+42,"Aachen Hbf","Bonn Hbf","8:39 AM","9:55 AM",1,"1:16","THA, RE","",76,0,0
+42,"Aachen Hbf","Bonn Hbf","9:18 AM","10:55 AM",1,"1:37","RE, RE","",97,0,0
+42,"Aachen Hbf","Bonn Hbf","8:51 AM","10:12 AM",1,"1:21","RE, ICE","",81,1,0
+43,"Aachen Hbf","Borken(Westf)","7:51 AM","11:27 AM",1,"3:36","RE, NWB","",216,0,0
+43,"Aachen Hbf","Borken(Westf)","6:51 AM","10:27 AM",1,"3:36","RE, NWB","",216,0,0
+43,"Aachen Hbf","Borken(Westf)","9:13 AM","12:27 PM",2,"3:14","RE, ICE, NWB","",194,1,0
+43,"Aachen Hbf","Borken(Westf)","7:13 AM","10:27 AM",2,"3:14","RE, RE, NWB","",194,0,0
+43,"Aachen Hbf","Borken(Westf)","8:13 AM","11:27 AM",2,"3:14","RE, RE, NWB","",194,0,0
+43,"Aachen Hbf","Borken(Westf)","8:51 AM","12:27 PM",1,"3:36","RE, NWB","",216,0,0
+43,"Aachen Hbf","Borken(Westf)","8:13 AM","11:27 AM",2,"3:14","RE, ICE, NWB","",194,1,0
+43,"Aachen Hbf","Borken(Westf)","8:39 AM","11:27 AM",2,"2:48","THA, ICE, NWB","",168,1,0
+43,"Aachen Hbf","Borken(Westf)","9:18 AM","12:27 PM",3,"3:09","RE, S, ICE, NWB","",189,1,0
+43,"Aachen Hbf","Borken(Westf)","7:13 AM","10:27 AM",2,"3:14","RE, ICE, NWB","",194,1,0
+43,"Aachen Hbf","Borken(Westf)","6:13 AM","9:27 AM",2,"3:14","RE, ICE, NWB","",194,1,0
+43,"Aachen Hbf","Borken(Westf)","7:39 AM","10:27 AM",2,"2:48","ICE, ICE, NWB","",168,1,0
+43,"Aachen Hbf","Borken(Westf)","6:18 AM","9:27 AM",3,"3:09","RE, S, ICE, NWB","",189,1,0
+43,"Aachen Hbf","Borken(Westf)","9:13 AM","12:27 PM",2,"3:14","RE, RE, NWB","",194,0,0
+43,"Aachen Hbf","Borken(Westf)","6:13 AM","9:27 AM",2,"3:14","RE, RE, NWB","",194,0,0
+44,"Aachen Hbf","Borna(Leipzig)","9:51 AM","5:20 PM",3,"7:29","RE, ICE, IC, MRB","",449,1,1
+44,"Aachen Hbf","Borna(Leipzig)","8:51 AM","4:20 PM",3,"7:29","RE, ICE, ICE, MRB","",449,1,0
+44,"Aachen Hbf","Borna(Leipzig)","7:39 AM","3:20 PM",3,"7:41","ICE, ICE, IC, MRB","",461,1,1
+44,"Aachen Hbf","Borna(Leipzig)","7:39 AM","3:20 PM",2,"7:41","ICE, IC, MRB","",461,1,1
+44,"Aachen Hbf","Borna(Leipzig)","9:18 AM","5:20 PM",3,"8:02","RE, ICE, IC, MRB","",482,1,1
+44,"Aachen Hbf","Borna(Leipzig)","9:51 AM","6:20 PM",3,"8:29","RE, EC, ICE, MRB","",509,1,0
+44,"Aachen Hbf","Borna(Leipzig)","9:51 AM","7:20 PM",4,"9:29","RE, EC, RE, IC, MRB","",569,0,1
+44,"Aachen Hbf","Borna(Leipzig)","6:51 AM","2:20 PM",3,"7:29","RE, ICE, ICE, MRB","",449,1,0
+44,"Aachen Hbf","Borna(Leipzig)","7:51 AM","4:20 PM",2,"8:29","RE, IC, MRB","",509,0,1
+44,"Aachen Hbf","Borna(Leipzig)","7:51 AM","3:20 PM",3,"7:29","RE, ICE, IC, MRB","",449,1,1
+45,"Aachen Hbf","Bottrop Hbf","7:39 AM","9:43 AM",2,"2:04","ICE, ICE, NWB","",124,1,0
+45,"Aachen Hbf","Bottrop Hbf","7:13 AM","9:57 AM",1,"2:44","RE, S","",164,0,0
+45,"Aachen Hbf","Bottrop Hbf","6:18 AM","8:43 AM",3,"2:25","RE, S, ICE, NWB","",145,1,0
+45,"Aachen Hbf","Bottrop Hbf","9:13 AM","11:37 AM",2,"2:24","RE, RE, S","",144,0,0
+45,"Aachen Hbf","Bottrop Hbf","7:38 AM","9:57 AM",2,"2:19","RB, S, S","",139,0,0
+45,"Aachen Hbf","Bottrop Hbf","8:39 AM","10:43 AM",2,"2:04","THA, ICE, NWB","",124,1,0
+45,"Aachen Hbf","Bottrop Hbf","9:13 AM","11:57 AM",1,"2:44","RE, S","",164,0,0
+45,"Aachen Hbf","Bottrop Hbf","8:13 AM","10:37 AM",2,"2:24","RE, RE, S","",144,0,0
+45,"Aachen Hbf","Bottrop Hbf","6:13 AM","8:57 AM",1,"2:44","RE, S","",164,0,0
+45,"Aachen Hbf","Bottrop Hbf","8:51 AM","11:17 AM",1,"2:26","RE, S","",146,0,0
+45,"Aachen Hbf","Bottrop Hbf","6:38 AM","8:57 AM",2,"2:19","RB, S, S","",139,0,0
+45,"Aachen Hbf","Bottrop Hbf","7:13 AM","9:37 AM",2,"2:24","RE, RE, S","",144,0,0
+45,"Aachen Hbf","Bottrop Hbf","8:38 AM","10:57 AM",2,"2:19","RB, S, S","",139,0,0
+45,"Aachen Hbf","Bottrop Hbf","7:51 AM","10:17 AM",1,"2:26","RE, S","",146,0,0
+45,"Aachen Hbf","Bottrop Hbf","6:13 AM","8:37 AM",2,"2:24","RE, RE, S","",144,0,0
+45,"Aachen Hbf","Bottrop Hbf","6:51 AM","9:17 AM",1,"2:26","RE, S","",146,0,0
+45,"Aachen Hbf","Bottrop Hbf","8:13 AM","10:57 AM",1,"2:44","RE, S","",164,0,0
+46,"Aachen Hbf","Brake(Unterweser)","9:51 AM","3:54 PM",2,"6:03","RE, IC, NWB","",363,0,1
+46,"Aachen Hbf","Brake(Unterweser)","8:51 AM","2:54 PM",2,"6:03","RE, IC, NWB","",363,0,1
+46,"Aachen Hbf","Brake(Unterweser)","7:51 AM","1:54 PM",2,"6:03","RE, IC, NWB","",363,0,1
+46,"Aachen Hbf","Brake(Unterweser)","6:56 AM","12:54 PM",2,"5:58","RE, IC, NWB","",358,0,1
+47,"Aachen Hbf","Brandenburg Hbf","7:39 AM","1:57 PM",3,"6:18","ICE, ICE, IC, RE","",378,1,1
+47,"Aachen Hbf","Brandenburg Hbf","8:39 AM","3:56 PM",2,"7:17","THA, ICE, RE","",437,1,0
+47,"Aachen Hbf","Brandenburg Hbf","6:28 AM","1:56 PM",2,"7:28","RE, ICE, RE","",448,1,0
+47,"Aachen Hbf","Brandenburg Hbf","9:18 AM","3:57 PM",3,"6:39","RE, ICE, IC, RE","",399,1,1
+47,"Aachen Hbf","Brandenburg Hbf","6:28 AM","1:48 PM",3,"7:20","RE, ICE, RE, OE","",440,1,0
+47,"Aachen Hbf","Brandenburg Hbf","8:39 AM","3:32 PM",3,"6:53","THA, ICE, S, RE","[g0]",413,1,0
+47,"Aachen Hbf","Brandenburg Hbf","8:39 AM","3:32 PM",4,"6:53","THA, ICE, S, S, RE","[g0]",413,1,0

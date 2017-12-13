@@ -1,0 +1,14 @@
+Date: Wed, 13 Dec 2017 01:43:04 GMT
+Content-Type: text/plain; charset=utf-8
+Set-Cookie: __cfduid=d4eeb39c441b04869631d95561ff29ca91513129383; expires=Thu, 13-Dec-18 01:43:03 GMT; path=/; domain=.nordvpn.com; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Link: <https://nordvpn.com/wp-json/>; rel="https://api.w.org/"
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+Cf-Cache-Status: MISS
+Vary: Accept-Encoding
+Server: cloudflare-nginx
+Cf-Ray: 3cc53af89ab9113b-SIN
+Content-Encoding: gzip
