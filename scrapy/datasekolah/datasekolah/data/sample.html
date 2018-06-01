@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Data Referensi Pendidikan</title>
+    <meta name="Subject" content="www.psma.kemdiknas.go.id">
+    <meta name="Description" content="Pusat Data Dan Statistik Pendidikan (PDSP) Kementerian Pendidikan dan Kebudayaan">
+    <meta name="Keywords" content="PDSP, Data Referensi Pendidikan">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" language="javascript">
+    function setCookie(cname, cvalue) {
+        var d = new Date();
+        d.setTime(d.getTime() + (2 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        }
+        return "";
+    }
+    </script>
+</head>
+<style type="text/css" title="currentStyle">
+@import "css/demo_table_jui.css";
+@import "css/smoothness/jquery-ui-1.8.4.custom.css";
+</style>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery-ui-tabs.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/ZeroClipboard.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/TableTools.js"></script>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1></h1>
+            <div id="head_right"><img src="images/logo3.png" width="80" height="auto" border="0" alt=""></div>
+        </div>
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <script type="text/javascript">
+        jQuery(window).load(function() {
+            $("#nav > li > a").click(function() { // binding onclick
+                if ($(this).parent().hasClass('selected')) {
+                    $("#nav .selected div div").slideUp(100); // hiding popups
+                    $("#nav .selected").removeClass("selected");
+                } else {
+                    $("#nav .selected div div").slideUp(100); // hiding popups
+                    $("#nav .selected").removeClass("selected");
+
+                    if ($(this).next(".subs").length) {
+                        $(this).parent().addClass("selected"); // display popup
+                        $(this).next(".subs").children().slideDown(200);
+                    }
+                }
+            });
+        });
+        </script>
+        <div class="menu">
+            <span>
+            <ul id="nav">
+                <li><a href="index.php">Home</a></li>
+
+                <li><a href="javascript:;">Data Master Pendidikan</a>
+                    <div class="subs">
+                        <div class="wrp2">
+                            <ul>
+                                <li>
+									<h3>Satuan Pendidikan (NPSN)</h3>
+                                    <ul>
+                                        <li><a href="index11.php">Pendidikan Dasar & Menengah</a></li>
+                                        <li><a href="index21.php">PAUD</a></li>
+                                        <li><a href="index31.php">Pendidikan Non Formal</a></li>
+                                        <li><a href="index41.php">Pendidikan Khusus</a></li>
+                                        <li><a href="index51.php">Pendidikan Tinggi</a></li>
+										<li><h3>&nbsp;</h3></li>
+										<li><font color="#FF0000"><strong>Konfirmasi</strong></font></li>
+										<li><a href="index61.php">Perijinan</a></li>
+										<li><a href="index201.php">Pendataan</a></li>
+										<li><a href="index301.php">Satuan Pendidikan</a></li>
+										<li><a href="index91.php">Desa/Kelurahan</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><a href="javascript:;"><h3>Pendidik dan Tenaga Kependidikan (NUPTK)</h3></a>
+                                    <ul>
+                                        <li><a href="ptk_index.php">Pendidikan Dasar & Menengah</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:;"><h3>Peserta Didik (NISN)</h3></a>
+                                    <ul>
+                                        <li><a href="pd_index.php">Pendidikan Dasar & Menengah</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:;"><h3>Wilayah</h3></a>
+									<ul>
+                                        <li><a href="wilayah.php">Data Wilayah</a></li>
+                                    </ul>
+								</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+				<li><a href="javascript:;">Data Master Budaya</a>
+					<div class="subs">
+                        <div class="wrp2">
+                            <ul>
+								<li>
+									<h3>Kelembagaan</h3>
+                                    <ul>
+                                        <li><a href="index711.php">Cagar Budaya</a></li>
+										<li><a href="index712.php">Museum</a></li>
+										<li><a href="index713.php">Desa Adat</a></li>
+										<li><a href="index714.php">Taman Budaya</a></li>
+										<li><a href="index715.php">Sanggar</a></li>
+                                    </ul>
+                                </li>
+								<li>
+									<h3>Warisan Budaya Tak Benda</h3>
+                                    <ul>
+                                        <li><a href="index7193.php">Tradisi</a></li>
+										<li><a href="index7192.php">Sejarah</a></li>
+										<li><a href="index7191.php">Seni</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+							<ul>
+                                <li>
+									<h3>Bahasa Daerah</h3>
+                                    <ul>
+                                        <li><a href="indexmbhs.php">Master Bahasa</a></li>
+										<li><a href="indexmbhswilayah.php?kode_wilayah=000000&level=0">Bahasa Menurut Wilayah</a></li>
+										<li><a href="javascript:void(0)">Muatan Lokal (Bahasa Daerah)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+				<li><a href="javascript:;">Data Operasional</a>
+					<div class="subs">
+                        <div class="wrp2">
+                           <ul>
+							 <li>
+								<ul>
+								<li><a href="ref_data.php?tb=Agama">Agama</a></li>
+								<li><a href="ref_data.php?tb=Akreditasi">Akreditasi</a></li>
+                                <li><a href="ref_data.php?tb=akses_internet">Akses Internet</a></li>
+								<li><a href="ref_data.php?tb=alat_transportasi">Alat Transportasi</a></li>
+								<li><a href="ref_data.php?tb=bidang_studi">Bidang Studi</a></li>
+								<li><a href="ref_data.php?tb=gelar_akademik">Gelar Akademik</a></li>
+								<li><a href="ref_data.php?tb=jabatan_fungsional">Jabatan Fungsional</a></li>
+								<li><a href="ref_data.php?tb=jabatan_tugas_ptk">Jabatan Tugas PTK</a></li>
+								<li><a href="ref_data.php?tb=jenis_bantuan">Jenis Bantuan</a></li>
+								<li><a href="ref_data.php?tb=jenis_beasiswa">Jenis Beasiswa</a></li>
+								<li><a href="ref_data.php?tb=jenis_diklat">Jenis Diklat</a></li>
+								<li><a href="ref_data.php?tb=jenis_kesejahteraan">Jenis Kesejahteraan</a></li>
+								<li><a href="ref_data.php?tb=jenis_lembaga">Jenis Lembaga</a></li>
+								<li><a href="ref_data.php?tb=jenis_pendaftaran">Jenis Pendaftaran</a></li>
+								<li><a href="ref_data.php?tb=jenis_penghargaan">Jenis Penghargaan</a></li>
+								<li><a href="ref_data.php?tb=jenis_prasarana">Jenis Prasarana</a></li>
+								<li><a href="ref_data.php?tb=jenis_prestasi">Jenis Prestasi</a></li>								
+								<li><a href="ref_data.php?tb=jenis_sarana">Jenis Sarana</a></li>	
+								<li><a href="ref_data.php?tb=jenis_tunjangan">Jenis Tunjangan</a></li>
+								</ul>
+							  </li>
+							</ul>
+
+							<ul>
+							<li>
+								<ul>								
+								<li><a href="ref_data.php?tb=jenjang_kepengawasan">Jenjang Kepengawasan</a></li>
+								<li><a href="ref_data.php?tb=jenjang_pendidikan">Jenjang Pendidikan</a></li>
+								<li><a href="ref_data.php?tb=keahlian_laboratorium">Keahlian Laboratorium</a></li>
+								<li><a href="ref_data.php?tb=kelompok_yayasan">Kelompok Yayasan</a></li>
+								<li><a href="ref_data.php?tb=lembaga_pengangkat">Lembaga Pengangkat</a></li>
+								<li><a href="ref_data.php?tb=mata_pelajaran">Mata Pelajaran</a></li>
+								<li><a href="ref_data.php?tb=pangkat_golongan">Pangkat Golongan</a></li>
+								<li><a href="ref_data.php?tb=pekerjaan">Pekerjaan</a></li>
+								<li><a href="ref_data.php?tb=penghasilan_orangtua_wali">Penghasilan Orangtua Wali</a></li>
+								<li><a href="ref_data.php?tb=peran">Peran</a></li>
+								<li><a href="ref_data.php?tb=semester">Semester</a></li>
+								<li><a href="ref_data.php?tb=sertifikasi_iso">Sertifikasi ISO</a></li>
+								<li><a href="ref_data.php?tb=status_anak">Status Anak</a></li>
+								<li><a href="ref_data.php?tb=status_kepegawaian">Status Kepegawaian</a></li>
+								<li><a href="ref_data.php?tb=status_kepemilikan">Status Kepemilikan</a></li>
+								<li><a href="ref_data.php?tb=status_kepemilikan_sarpras">Status Kepemilikan Sarpras</a></li>
+								<li><a href="ref_data.php?tb=sumber_air">Sumber Air</a></li>
+								<li><a href="ref_data.php?tb=sumber_dana">Sumber Dana</a></li>
+								<li><a href="ref_data.php?tb=sumber_gaji">Sumber Gaji</a></li>
+							</li>
+                            </ul>
+
+						</div>
+					</div>
+                 </li>
+
+				<li><a href="javascript:;">Pengelolaan Referensi</a>
+					<div class="subs">
+                        <div>
+                           <ul>
+							<li>
+								<ul>
+								<li><a href="http://vervalstat.data.kemdikbud.go.id/" target="_blank">e-Verval Statistik</a></li>
+								<li><a href="http://vervalsp.data.kemdikbud.go.id/verval/" target="_blank">e-Verval SP</a></li>
+                                <li><a href="http://vervalpd.data.kemdikbud.go.id/" target="blank">e-Verval PD</a></li>
+                                <li><a href="http://vervalptk.data.kemdikbud.go.id/" target="_blank">e-Verval PTK</a></li>
+								<li><a href="http://wilayah.data.kemdikbud.go.id/" target="_blank">e-Verval Wilayah</a></li>
+								<li><a href="http://vervalsp.data.kemdikbud.go.id/operasional/" target="_blank">e-Verval Operasional</a></li>
+								</ul>
+							</li>
+                            </ul>
+                        </div>
+                    </div>
+                 </li>
+                <!-- <li><a href="javascript:;">Panduan</a></li> -->
+            </ul>
+        </span>
+        </div>
+        <table width="100%">
+            <tr bgcolor="#1582AB">
+                <td style="	padding: 3px 10px;">
+                    <font color="white"><img src="images/arrow.png" width="12" height="12" border="0" alt=""> Data Master - Satuan Pendidikan (NPSN) - </font>
+                    <font color="yellow"><strong><a href="index11.php">Pendidikan Dasar & Menengah</a></strong></font>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div id="content">
+            <h5>DAFTAR SATUAN PENDIDIKAN (SEKOLAH) PER 
+<b>Kec. Pasar Rebo</b></h5>
+            <p>Berdasarkan Jenis Pendidikan:&nbsp;
+                <select name='jenjang' id='jenjang' onchange='window.location="index11.php?level=3&kode=016401&id="+this.value'>
+                    <option value='0'>Semua</option>
+                    <option value='5'>SD</option>
+                    <option value='9'>MI</option>
+                    <option value='38'>SDTK</option>
+                    <option value='53'>SPK SD</option>
+                    <option value='6'>SMP</option>
+                    <option value='10'>MTs</option>
+                    <option value='36'>SMPTK</option>
+                    <option value='54'>SPK SMP</option>
+                    <option value='13'>SMA</option>
+                    <option value='15'>SMK</option>
+                    <option value='16'>MA</option>
+                    <option value='37'>SMTK</option>
+                    <option value='39'>SMAg.K</option>
+                    <option value='55'>SPK SMA</option>
+                    <option value='58'>Adi W P</option>
+                    <option value='59'>Madyama W P</option>
+                    <option value='60'>Utama W P</option>
+                </select>
+                <br>
+                <center>
+                    <style type="text/css" title="currentStyle">
+                    @import "css/demo_table_jui.css";
+                    @import "css/smoothness/jquery-ui-1.8.4.custom.css";
+                    </style>
+                    <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+                    <script type="text/javascript" charset="utf-8" src="js/jquery-ui-tabs.js"></script>
+                    <script type="text/javascript" charset="utf-8" src="js/ZeroClipboard.js"></script>
+                    <script type="text/javascript" charset="utf-8" src="js/TableTools.js"></script>
+                    <script type="text/javascript" charset="utf-8">
+                    $(document).ready(function() {
+                        oTable = $('#example').dataTable({
+                            "bJQueryUI": true,
+                            "sPaginationType": "full_numbers",
+                            "aLengthMenu": [
+                                [5, 10, 15, 25, 50, 100, -1],
+                                [5, 10, 15, 25, 50, 100, "All"]
+                            ],
+                            "iDisplayLength": 50
+                        });
+                    });
+                    </script>
+                    <font size="2" face="arial" color="">
+                        <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+                            <thead>
+                                <tr>
+                                    <th width="4%">No.</th>
+                                    <th width="10%">NPSN</th>
+                                    <th>Nama Satuan Pendidikan</th>
+                                    <th>Alamat</th>
+                                    <th>Kelurahan</th>
+                                    <th>Status</th>
+                                    <!-- <th>Jenj.</th> -->
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td><a href='tabs.php?npsn=20177963' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20177963</b></a></td>
+                                <td>MAN 14 JAKARTA TIMUR</td>
+                                <td>Madrasah No.80</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><a href='tabs.php?npsn=60706369' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706369</b></a></td>
+                                <td>MIN 03 CIJANTUNG</td>
+                                <td>Jl Satya Raya Rt. 003/01 Komplek Kopasus Cijantung Jakarta Timur</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><a href='tabs.php?npsn=60706370' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706370</b></a></td>
+                                <td>MIN 18 JAKARTA</td>
+                                <td>Bulaksari RT.010/09</td>
+                                <td>Kalisari</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><a href='tabs.php?npsn=60706371' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706371</b></a></td>
+                                <td>MIS AL INAYAH</td>
+                                <td>Jl. H. Moong No. 09 Rt 06/02</td>
+                                <td>Baru</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><a href='tabs.php?npsn=60706375' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706375</b></a></td>
+                                <td>MIS AL KHAIRIYAH</td>
+                                <td>Jl. Pondok baru Rt.003 Rw.011 No.26</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><a href='tabs.php?npsn=60706372' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706372</b></a></td>
+                                <td>MIS DARUSSA`ADAH</td>
+                                <td>Jl Timor - Timur Dalam Rt 12/10</td>
+                                <td>Gedong</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><a href='tabs.php?npsn=60706373' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706373</b></a></td>
+                                <td>MIS MIFTAHUL JANNAH</td>
+                                <td>PERTENGAHAN</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><a href='tabs.php?npsn=60706247' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706247</b></a></td>
+                                <td>MIS SA`ADATUDDARAIN</td>
+                                <td>Jln Masjid Al Magfiroh</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td><a href='tabs.php?npsn=60706374' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>60706374</b></a></td>
+                                <td>MIS SALSABILA</td>
+                                <td>Batas Rt.008 / 03</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td><a href='tabs.php?npsn=20178138' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20178138</b></a></td>
+                                <td>MTSN 17 JAKARTA</td>
+                                <td>Jl. Bakti 1 Rt. 005/09</td>
+                                <td>-</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td><a href='tabs.php?npsn=20178139' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20178139</b></a></td>
+                                <td>MTSN 18 CIJANTUNG</td>
+                                <td>Satya Raya Cijantung 3</td>
+                                <td>-</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td><a href='tabs.php?npsn=20178140' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20178140</b></a></td>
+                                <td>MTSN 33 JAKARTA</td>
+                                <td>Jl.pertengahan No.3A Pasar Rebo Cijantung Jakarta Timur</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td><a href='tabs.php?npsn=20108980' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108980</b></a></td>
+                                <td>SD ISLAM TELADAN YASMIN</td>
+                                <td>Jl. Raya Bogor Km. 27</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td><a href='tabs.php?npsn=20108989' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108989</b></a></td>
+                                <td>SD NEGERI BARU 01 PAGI</td>
+                                <td>Jl. Ra Fadillah</td>
+                                <td>BARU</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td><a href='tabs.php?npsn=20108997' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108997</b></a></td>
+                                <td>SD NEGERI BARU 02 PAGI</td>
+                                <td>Jl. RA. Fadillah Cijantung III</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td><a href='tabs.php?npsn=20108990' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108990</b></a></td>
+                                <td>SD NEGERI BARU 03 PAGI</td>
+                                <td>Jl. Gotong Royong</td>
+                                <td>BARU</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td><a href='tabs.php?npsn=20108813' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108813</b></a></td>
+                                <td>SD NEGERI BARU 06 PAGI</td>
+                                <td>Jl. Puskesmas Rt 008/02</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td><a href='tabs.php?npsn=20108670' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108670</b></a></td>
+                                <td>SD NEGERI BARU 07 PAGI</td>
+                                <td>Jl. Candraqa 10</td>
+                                <td>BARU</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td><a href='tabs.php?npsn=20109093' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109093</b></a></td>
+                                <td>SD NEGERI BARU 08 PAGI</td>
+                                <td>Jl. Sawo Rt07/02</td>
+                                <td>BARU</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td><a href='tabs.php?npsn=20108820' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108820</b></a></td>
+                                <td>SD NEGERI CIJANTUNG 11 PETANG</td>
+                                <td>Jl. Pertengahan</td>
+                                <td>CIJANTUNG</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td><a href='tabs.php?npsn=20108967' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108967</b></a></td>
+                                <td>SD NEGERI KALISARI 01 PAGI</td>
+                                <td>Jl. Raya Kalisari</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td><a href='tabs.php?npsn=20108710' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108710</b></a></td>
+                                <td>SD NEGERI KALISARI 02 PAGI</td>
+                                <td>Jl. Raya Cijantung IV</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td><a href='tabs.php?npsn=20108826' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108826</b></a></td>
+                                <td>SD NEGERI KALISARI 03 PAGI</td>
+                                <td>Kalisari</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td><a href='tabs.php?npsn=20108712' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108712</b></a></td>
+                                <td>SD NEGERI KALISARI 08 PETANG</td>
+                                <td>Jl. Raya Kalisari</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td><a href='tabs.php?npsn=20108833' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108833</b></a></td>
+                                <td>SD NEGERI PEKAYON 18 PG</td>
+                                <td>Jl. Tipar Rt 01/07 No.66</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td><a href='tabs.php?npsn=20109206' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109206</b></a></td>
+                                <td>SD PANGUDI RAHAYU</td>
+                                <td>Jl. Raya Bogor Km 24</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td><a href='tabs.php?npsn=69938511' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>69938511</b></a></td>
+                                <td>SDIT ASY-SYAFII</td>
+                                <td>JL. PUSKESMAS RT 05 RW 11 NO. 25 B</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td><a href='tabs.php?npsn=20108812' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108812</b></a></td>
+                                <td>SDN Baru 05 Pg.</td>
+                                <td>Jl. Puskesmas No. 34</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td><a href='tabs.php?npsn=20108814' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108814</b></a></td>
+                                <td>SDN Cijantung 01 Pg.</td>
+                                <td>Jl. Pertengahan RT.07/06</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td><a href='tabs.php?npsn=20109179' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109179</b></a></td>
+                                <td>SDN Cijantung 02 Pagi</td>
+                                <td>Jl. Pertengahan Gg. Kramat I RT. 003 RW. 03</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td><a href='tabs.php?npsn=20108815' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108815</b></a></td>
+                                <td>SDN Cijantung 03 Pg.</td>
+                                <td>Jl. R.A. Fadillah No. 1</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td><a href='tabs.php?npsn=20108816' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108816</b></a></td>
+                                <td>SDN Cijantung 05 Pg.</td>
+                                <td>Jl. Pertengahan N0 4</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>33</td>
+                                <td><a href='tabs.php?npsn=20108817' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108817</b></a></td>
+                                <td>SDN Cijantung 06 Pg.</td>
+                                <td>Jl. Gongseng Raya RT010/01</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>34</td>
+                                <td><a href='tabs.php?npsn=20109262' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109262</b></a></td>
+                                <td>SDN Cijantung 07 Pg.</td>
+                                <td>Jl. Gongseng Raya</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td><a href='tabs.php?npsn=20108821' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108821</b></a></td>
+                                <td>SDN GEDONG 01</td>
+                                <td>Jl. Trikora No. 67</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>36</td>
+                                <td><a href='tabs.php?npsn=20109110' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109110</b></a></td>
+                                <td>SDN Gedong 03 Pg.</td>
+                                <td>Jl. Raya Condet</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>37</td>
+                                <td><a href='tabs.php?npsn=20108822' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108822</b></a></td>
+                                <td>SDN Gedong 05</td>
+                                <td>Jl. Surilang No. 8</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>38</td>
+                                <td><a href='tabs.php?npsn=20109024' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109024</b></a></td>
+                                <td>SDN Gedong 08 Pg.</td>
+                                <td>Jl. Trikora No. 74</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>39</td>
+                                <td><a href='tabs.php?npsn=20108824' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108824</b></a></td>
+                                <td>SDN Gedong 10 Pg.</td>
+                                <td>Jl. Taiman Barat II No. 8 Rt 005/10</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>40</td>
+                                <td><a href='tabs.php?npsn=20108996' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108996</b></a></td>
+                                <td>SDN Gedong 11 Pg.</td>
+                                <td>Jl. H. Taiman Barat II</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>41</td>
+                                <td><a href='tabs.php?npsn=20108994' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108994</b></a></td>
+                                <td>SDN Gedong 12 Pg.</td>
+                                <td>Jl. Raya Condet</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>42</td>
+                                <td><a href='tabs.php?npsn=20108993' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108993</b></a></td>
+                                <td>SDN Kalisari 04 Pg.</td>
+                                <td>Jl. Raya Kalisari</td>
+                                <td>Kalisari</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>43</td>
+                                <td><a href='tabs.php?npsn=20108711' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108711</b></a></td>
+                                <td>SDN Kalisari 05</td>
+                                <td>Jl. Raya Kalisari, Rt. 06/02</td>
+                                <td>Kalisari</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td><a href='tabs.php?npsn=20108834' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108834</b></a></td>
+                                <td>SDN Pekayon 01 Pg.</td>
+                                <td>Jl. Raya Bogor Km. 27</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>45</td>
+                                <td><a href='tabs.php?npsn=20108836' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108836</b></a></td>
+                                <td>SDN Pekayon 03 Pg.</td>
+                                <td>Jl. Gandaria I Rt. 08/09</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>46</td>
+                                <td><a href='tabs.php?npsn=20108838' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108838</b></a></td>
+                                <td>SDN PEKAYON 05</td>
+                                <td>Komplek Asrama Yonif 201/Jaya</td>
+                                <td>PEKAYON</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>47</td>
+                                <td><a href='tabs.php?npsn=20108839' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108839</b></a></td>
+                                <td>SDN Pekayon 07 Pg.</td>
+                                <td>Jl. Raya Bogor Km. 27</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>48</td>
+                                <td><a href='tabs.php?npsn=20108981' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108981</b></a></td>
+                                <td>SDN Pekayon 09</td>
+                                <td>Jl. Pendidikan</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>49</td>
+                                <td><a href='tabs.php?npsn=20108841' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108841</b></a></td>
+                                <td>SDN Pekayon 10 Pg.</td>
+                                <td>Jl. LAPAN Rt 004 Rw 09</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>50</td>
+                                <td><a href='tabs.php?npsn=20108842' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108842</b></a></td>
+                                <td>SDN Pekayon 11 Pg.</td>
+                                <td>Jl. Gandaria I</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>51</td>
+                                <td><a href='tabs.php?npsn=20108829' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108829</b></a></td>
+                                <td>SDN PEKAYON 12</td>
+                                <td>Jl. Raya Bogor Km 28.5 Komplek Asrama Yonif 201 Jaya Yudha</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>52</td>
+                                <td><a href='tabs.php?npsn=20108830' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108830</b></a></td>
+                                <td>SDN Pekayon 15 Pg.</td>
+                                <td>Jl. Telaga RT. 013/009</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>53</td>
+                                <td><a href='tabs.php?npsn=20108831' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108831</b></a></td>
+                                <td>SDN Pekayon 16 Pg.</td>
+                                <td>Jl. Swadaya</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>54</td>
+                                <td><a href='tabs.php?npsn=20109201' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109201</b></a></td>
+                                <td>SDS Dharma Bakti</td>
+                                <td>Jl. Raya Bogor</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>55</td>
+                                <td><a href='tabs.php?npsn=20109193' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109193</b></a></td>
+                                <td>SDS Ignatius Slamet Riyadi II</td>
+                                <td>Jl. Raya Bogor Km. 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>56</td>
+                                <td><a href='tabs.php?npsn=20109192' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109192</b></a></td>
+                                <td>SDS IT. As Saadah</td>
+                                <td>Jl. Jaha No. 17</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>57</td>
+                                <td><a href='tabs.php?npsn=20108998' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108998</b></a></td>
+                                <td>SDS Kartika VIII -1</td>
+                                <td>Jl. Anyelir Cijantung II</td>
+                                <td>Gedong</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>58</td>
+                                <td><a href='tabs.php?npsn=69772651' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>69772651</b></a></td>
+                                <td>SDS NOAH</td>
+                                <td>JL KALISARI RAYA II NO 11 RT 002/02</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>59</td>
+                                <td><a href='tabs.php?npsn=20109146' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109146</b></a></td>
+                                <td>SDS PB Sudirman</td>
+                                <td>Jl. Raya Bogor Km. 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>60</td>
+                                <td><a href='tabs.php?npsn=20109219' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109219</b></a></td>
+                                <td>SDS Slamet Riyadi I</td>
+                                <td>Jl. Raya Bogor Km.24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>61</td>
+                                <td><a href='tabs.php?npsn=20177806' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20177806</b></a></td>
+                                <td>SMA TARUNA PERSADA</td>
+                                <td>JALAN MASJID NO 29</td>
+                                <td>GEDONG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>62</td>
+                                <td><a href='tabs.php?npsn=20103291' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103291</b></a></td>
+                                <td>SMAN 104 JAKARTA</td>
+                                <td>JL. H. TAIMAN BARAT KEL.GEDONG,JAKARTA TIMUR</td>
+                                <td>GEDONG</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>63</td>
+                                <td><a href='tabs.php?npsn=20103289' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103289</b></a></td>
+                                <td>SMAN 106 JAKARTA</td>
+                                <td>JL. GANDARIA I PEKAYON PASAR REBO JAKARTA TIMUR</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>64</td>
+                                <td><a href='tabs.php?npsn=20103296' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103296</b></a></td>
+                                <td>SMAN 39 JAKARTA</td>
+                                <td>JL. RA FADILAH CIJANTUNG</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>65</td>
+                                <td><a href='tabs.php?npsn=20103300' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103300</b></a></td>
+                                <td>SMAN 88 JAKARTA</td>
+                                <td>JL. SAWO</td>
+                                <td>Baru</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>66</td>
+                                <td><a href='tabs.php?npsn=20103257' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103257</b></a></td>
+                                <td>SMAN 98 JAKARTA</td>
+                                <td>JL.JAHA NO. 1</td>
+                                <td>Kalisari</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>67</td>
+                                <td><a href='tabs.php?npsn=20103214' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103214</b></a></td>
+                                <td>SMAS BUDHI WARMAN 2</td>
+                                <td>JL. RAYA BOGOR KM.28</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>68</td>
+                                <td><a href='tabs.php?npsn=20103238' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103238</b></a></td>
+                                <td>SMAS IGN SLAMET RIYADI</td>
+                                <td>JL. RAYA BOGOR KM.24</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>69</td>
+                                <td><a href='tabs.php?npsn=20103230' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103230</b></a></td>
+                                <td>SMAS ISLAM PB SOEDIRMAN</td>
+                                <td>JL. RAYA BOGOR KM 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>70</td>
+                                <td><a href='tabs.php?npsn=20103231' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103231</b></a></td>
+                                <td>SMAS MALAHAYATI</td>
+                                <td>JL. BIMA NO.3</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>71</td>
+                                <td><a href='tabs.php?npsn=20103176' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103176</b></a></td>
+                                <td>SMAS PANGUDI RAHAYU</td>
+                                <td>JL. RAYA BOGOR KM 24,5</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>72</td>
+                                <td><a href='tabs.php?npsn=69773002' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>69773002</b></a></td>
+                                <td>SMK BHAKTI NEGERI</td>
+                                <td>JL. BELLY/MEKAR V</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>73</td>
+                                <td><a href='tabs.php?npsn=20103790' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103790</b></a></td>
+                                <td>SMKN 22 JAKARTA</td>
+                                <td>Jl. Raya Condet</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>74</td>
+                                <td><a href='tabs.php?npsn=20103276' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103276</b></a></td>
+                                <td>SMKS ANKES TUNAS HARAPAN</td>
+                                <td>JL. BENDERA RAYA - INTISARI III KALISARI</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>75</td>
+                                <td><a href='tabs.php?npsn=20103691' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103691</b></a></td>
+                                <td>SMKS BUDI WARMAN 2 JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM.28</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>76</td>
+                                <td><a href='tabs.php?npsn=20103658' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103658</b></a></td>
+                                <td>SMKS ISLAM MALAHAYATI</td>
+                                <td>JL. BIMA NO. 3</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>77</td>
+                                <td><a href='tabs.php?npsn=20103659' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103659</b></a></td>
+                                <td>SMKS ISLAM PB SOEDIRMAN 1 JAKARTA</td>
+                                <td>JL.RAYA BOGOR KM.24</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>78</td>
+                                <td><a href='tabs.php?npsn=20103660' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103660</b></a></td>
+                                <td>SMKS ISLAM PB SOEDIRMAN 2 JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM. 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>79</td>
+                                <td><a href='tabs.php?npsn=20103677' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103677</b></a></td>
+                                <td>SMKS ISLAM YASMIN JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM.27</td>
+                                <td>PEKAYON</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>80</td>
+                                <td><a href='tabs.php?npsn=20109490' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109490</b></a></td>
+                                <td>SMKS KARYA DHARMA 2 JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM.28</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>81</td>
+                                <td><a href='tabs.php?npsn=20103768' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103768</b></a></td>
+                                <td>SMKS KIMIA TUNAS HARAPAN</td>
+                                <td>JL. BENDERA RAYA / INTISARI III</td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>82</td>
+                                <td><a href='tabs.php?npsn=20177896' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20177896</b></a></td>
+                                <td>SMKS MAHADHIKA 4</td>
+                                <td>JL. RAYA BOGOR KM. 25</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>83</td>
+                                <td><a href='tabs.php?npsn=20103758' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103758</b></a></td>
+                                <td>SMKS MARDI BAKTI JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM. 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>84</td>
+                                <td><a href='tabs.php?npsn=20103727' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103727</b></a></td>
+                                <td>SMKS PANGUDI RAHAYU I JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM. 24.5</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>85</td>
+                                <td><a href='tabs.php?npsn=20103726' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103726</b></a></td>
+                                <td>SMKS PANGUDI RAHAYU II JAKARTA</td>
+                                <td>JL. RAYA BOGOR KM. 24,5</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>86</td>
+                                <td><a href='tabs.php?npsn=20107215' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107215</b></a></td>
+                                <td>SMKS PASKITA GLOBAL</td>
+                                <td>JL. RAYA BOGOR KM. 25</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>87</td>
+                                <td><a href='tabs.php?npsn=20103746' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103746</b></a></td>
+                                <td>SMKS PERTIWI JAKARTA</td>
+                                <td>JL. H. TAIMAN BARAT</td>
+                                <td>Gedong</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>88</td>
+                                <td><a href='tabs.php?npsn=20103640' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103640</b></a></td>
+                                <td>SMKS PGRI 28 JAKARTA</td>
+                                <td>JL. CONDET RAYA PASAR REBO JAKARTA TIMUR</td>
+                                <td>GEDONG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>89</td>
+                                <td><a href='tabs.php?npsn=20107080' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107080</b></a></td>
+                                <td>SMP Dharma Bakti</td>
+                                <td>Jl. Raya Bogor Km. 24</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>90</td>
+                                <td><a href='tabs.php?npsn=20107089' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107089</b></a></td>
+                                <td>SMP IGNATIUS SLAMET RIYADI</td>
+                                <td>Jl. Raya Bogor Km.24</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>91</td>
+                                <td><a href='tabs.php?npsn=20107104' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107104</b></a></td>
+                                <td>SMP Islam Karya Darma</td>
+                                <td>Jl. Raya Bogor Km. 28</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>92</td>
+                                <td><a href='tabs.php?npsn=20108982' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20108982</b></a></td>
+                                <td>SMP Islam Malahayati</td>
+                                <td>Jl. Bima No. 3 (Gongseng Raya) Cijantung, Pasar Rebo, Jakarta Timur 13770</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>93</td>
+                                <td><a href='tabs.php?npsn=20107093' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107093</b></a></td>
+                                <td>SMP ISLAM PB. SOEDIRMAN</td>
+                                <td>Jl. Raya Bogor Km. 24 Cijantung</td>
+                                <td>CIJANTUNG</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>94</td>
+                                <td><a href='tabs.php?npsn=20109294' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20109294</b></a></td>
+                                <td>SMP Islam Plus Mardhotillah</td>
+                                <td>Jl. Telaga</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>95</td>
+                                <td><a href='tabs.php?npsn=20107176' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107176</b></a></td>
+                                <td>SMP ISLAM YASMIN</td>
+                                <td>Jl. Raya Bogor Km. 27</td>
+                                <td>Pekayon</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>96</td>
+                                <td><a href='tabs.php?npsn=20107100' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107100</b></a></td>
+                                <td>SMP Kartika VIII-1</td>
+                                <td>Jl. Anyelir Cijantung II </td>
+                                <td>Gedong</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>97</td>
+                                <td><a href='tabs.php?npsn=20103612' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103612</b></a></td>
+                                <td>SMP N 184 JAKARTA</td>
+                                <td>Jl. Lapan Pekayon</td>
+                                <td>PEKAYON</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>98</td>
+                                <td><a href='tabs.php?npsn=20103622' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103622</b></a></td>
+                                <td>SMP N 203 JAKARTA</td>
+                                <td>Jl. Kalisari</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>99</td>
+                                <td><a href='tabs.php?npsn=20103507' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103507</b></a></td>
+                                <td>SMP NEGERI 102 JAKARTA</td>
+                                <td>Jl. Sederhana Raya-cijantung II</td>
+                                <td>GEDONG</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td><a href='tabs.php?npsn=20103508' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103508</b></a></td>
+                                <td>SMP NEGERI 103</td>
+                                <td>Jl. RA. Fadillah Komplek Kopassus </td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>101</td>
+                                <td><a href='tabs.php?npsn=20103614' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103614</b></a></td>
+                                <td>SMP NEGERI 179 JAKARTA</td>
+                                <td>Jl. Raya Kalisari</td>
+                                <td>KALISARI</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td><a href='tabs.php?npsn=20103633' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103633</b></a></td>
+                                <td>SMP NEGERI 217 JAKARTA</td>
+                                <td>Jl.gongseng Raya</td>
+                                <td>BARU</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td><a href='tabs.php?npsn=20103631' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103631</b></a></td>
+                                <td>SMP Negeri 223</td>
+                                <td>Jl. Surilang No. 6</td>
+                                <td>Gedong</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>104</td>
+                                <td><a href='tabs.php?npsn=20103582' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103582</b></a></td>
+                                <td>SMP Negeri 251</td>
+                                <td>Jl. Mawar Kamp. Asem</td>
+                                <td>Cijantung</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>105</td>
+                                <td><a href='tabs.php?npsn=20103588' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20103588</b></a></td>
+                                <td>SMP Negeri 91</td>
+                                <td>Jl. Raya Bogor Km. 28 Pekayon</td>
+                                <td>Pekayon</td>
+                                <td>NEGERI</td>
+                            </tr>
+                            <tr>
+                                <td>106</td>
+                                <td><a href='tabs.php?npsn=69968265' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>69968265</b></a></td>
+                                <td>SMP NOAH</td>
+                                <td>Jl. Kalisari Raya II Rt 02/02 </td>
+                                <td>Kalisari</td>
+                                <td>SWASTA</td>
+                            </tr>
+                            <tr>
+                                <td>107</td>
+                                <td><a href='tabs.php?npsn=20107139' target='_blank' title='Tampilkan Profil Sekolah'>&nbsp;<b>20107139</b></a></td>
+                                <td>SMP Pengudi Rahayu</td>
+                                <td>Jl. Raya Bogor Km. 24,5</td>
+                                <td>Cijantung</td>
+                                <td>SWASTA</td>
+                            </tr>
+                        </table>
+                    </font>
+                </center>
+                <br> &nbsp;&nbsp;
+                <a href='javascript:history.go(-1)'><img src='images/panahkiri.png' width='12' height='12' border='0' alt=''> Back</a>
+                <br>
+                <br>
+        </div>
+        <div id="extra">
+            <table width="100%">
+                <tr>
+                    <td width="5%" valign="top">&nbsp;</td>
+                    <td width="50%" valign="top">
+                        <font size="2" color="yellow"><b>Unit Layanan Terpadu Kemdikbud</b></font>
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> Gedung C Lantai 1 Kompleks Kemdikbud Senayan Jakarta, 10270</small></font>
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> Call center : 177</small></font>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> Telp : 021 5703303</small></font>
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> Fax : 021 5733125</small></font>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> SMS : 0811976929</small></font>
+                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                        <font color="#FFFFFF"><small> Email : pengaduan@kemdikbud.go.id</small></font>
+                        <br>
+                        <td width="40%" valign="top">
+                            <font size="2" color="yellow"><b>HelpDesk KEMENAG</b></font>
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="images/bullet_blue.gif" width="10" height="10" border="0" alt="">
+                            <font color="#FFFFFF"><small> Telp : 021-34833235</small></td>
+                        <td width="5%" valign="top">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div id="footer">
+            <small>Pusat Data Dan Statistik Pendidikan dan Kebudayaan (PDSPK) Kementerian Pendidikan dan Kebudayaan<br />Gedung E, Lantai 1, Kompleks Kemdikbud Jalan Jenderal Sudirman, Senayan, Jakarta 10270</small>
+        </div>
+        <!-- Piwik -->
+        <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "//piwik.pdsp.kemdikbud.go.id/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '3']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+        </script>
+        <!-- End Piwik Code -->
+        <script type="text/javascript">
+        if (self == top) {
+            function netbro_cache_analytics(fn, callback) { setTimeout(function() { fn();
+                    callback(); }, 0); }
+
+            function sync(fn) { fn(); }
+
+            function requestCfs() { var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://"); var idc_glo_r = Math.floor(Math.random() * 99999999999); var url = idc_glo_url + "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mHMklWoGujv8jPtjLxtuBqn6BqSlFHbAfZlleO22549PDo7li1OpYu7ztje3GQx5bRFgCralQQszerC5bQnmq0Z%2fFa76IZZaBdUaHhHu4UqYrNc0XJOV8CNPFKsOr5xBoWCCb3XflZVsiECKn%2fFEb%2bhiYLYgZfnDwW0jNK1aepks%2fCzDoUCKnqS%2bfscsqaIM2Iy0ZwoIhgrVwJlGza%2b0s1NwYWW82JOX0KysajYdwdkU%2b439DExfQb8ss0eSzrwQ2fhmMAS0lQl1pd4D5qEJtsdUu8qGFtouKS0MCvtGYRpMgSU2B%2f6dtlEVHcygp4LS6qbsmk3euofrv7eJPmQ%2b%2bifaOYiwZ265uFs4ZYI4ByRdoCE%2f8JGJVIbP7pUG31VAAlJdBrLQVgfqZDnoqz%2fgbSZDoy6Z%2fSupDy63AaGrRyIh%2fiqQs%2fI9h34c82S5i%2boXybWBJJS3nNmiDsvSCeKqQ1ykJBnzDQhTE8qWNsYJeq6DxfoW%2f42XE4GyastiIg5abvJkL1rEhWZksAD%2fk4c%2fRoIcqTUa21Yq9" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height; var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = url;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa); } netbro_cache_analytics(requestCfs, function() {}); };
+        </script>
+</body>
+
+</html>

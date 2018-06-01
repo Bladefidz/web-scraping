@@ -1,0 +1,398 @@
+{
+  "acreage": 0.16000,
+  "appraiserValueInfo": null,
+  "buildings": [
+    {
+      "bathrooms": 1.00,
+      "bedrooms": 2.00,
+      "cardNumber": 1,
+      "constructionInfo": [
+        {
+          "constructionDetail": {
+            "code": "C  ",
+            "description": "Masonry Or Concrete Frame"
+          },
+          "element": {
+            "code": "01  ",
+            "description": "Class"
+          },
+          "sequence": 1
+        },
+        {
+          "constructionDetail": {
+            "code": "5",
+            "description": "Concrete Block"
+          },
+          "element": {
+            "code": "EW  ",
+            "description": "Exterior Wall"
+          },
+          "sequence": 2
+        },
+        {
+          "constructionDetail": {
+            "code": "3",
+            "description": "Gable Or Hip"
+          },
+          "element": {
+            "code": "RS  ",
+            "description": "Roof Structure"
+          },
+          "sequence": 3
+        },
+        {
+          "constructionDetail": {
+            "code": "3",
+            "description": "Asphalt/Comp. Shingle"
+          },
+          "element": {
+            "code": "RC  ",
+            "description": "Roof Cover"
+          },
+          "sequence": 4
+        },
+        {
+          "constructionDetail": {
+            "code": "5",
+            "description": "Drywall"
+          },
+          "element": {
+            "code": "IW  ",
+            "description": "Interior Walls"
+          },
+          "sequence": 5
+        },
+        {
+          "constructionDetail": {
+            "code": "8",
+            "description": "Carpet"
+          },
+          "element": {
+            "code": "IF  ",
+            "description": "Interior Flooring"
+          },
+          "sequence": 6
+        },
+        {
+          "constructionDetail": {
+            "code": "7",
+            "description": "Tile"
+          },
+          "element": {
+            "code": "IF  ",
+            "description": "Interior Flooring"
+          },
+          "sequence": 7
+        },
+        {
+          "constructionDetail": {
+            "code": "2",
+            "description": "Central"
+          },
+          "element": {
+            "code": "AC  ",
+            "description": "Heat/Ac"
+          },
+          "sequence": 8
+        },
+        {
+          "constructionDetail": {
+            "code": "4",
+            "description": "Basic 1-Story"
+          },
+          "element": {
+            "code": "AR  ",
+            "description": "Architectural Style"
+          },
+          "sequence": 9
+        },
+        {
+          "constructionDetail": {
+            "code": "3",
+            "description": "Average"
+          },
+          "element": {
+            "code": "CN  ",
+            "description": "Condition"
+          },
+          "sequence": 10
+        },
+        {
+          "constructionDetail": {
+            "code": "2.00",
+            "description": null
+          },
+          "element": {
+            "code": "BR  ",
+            "description": "Bedrooms"
+          },
+          "sequence": 11
+        },
+        {
+          "constructionDetail": {
+            "code": "1.00",
+            "description": null
+          },
+          "element": {
+            "code": "BT  ",
+            "description": "Bathrooms"
+          },
+          "sequence": 12
+        },
+        {
+          "constructionDetail": {
+            "code": "1.00",
+            "description": null
+          },
+          "element": {
+            "code": "SH  ",
+            "description": "Stories"
+          },
+          "sequence": 13
+        },
+        {
+          "constructionDetail": {
+            "code": "1.00",
+            "description": null
+          },
+          "element": {
+            "code": "RM  ",
+            "description": "Units"
+          },
+          "sequence": 14
+        }
+      ],
+      "depreciation": 46627,
+      "grossArea": 1500,
+      "heatedArea": 816,
+      "noData": false,
+      "photo": null,
+      "sketch": "FST(L2 USP(U18 L20 D18 BAS(L22 D24 R23 FSP(D4 R21 U17 L10 D13 L11) R11 U24 L12) R20) L8 D11 R10  U11).",
+      "stories": 1.00,
+      "subAreaInfo": [
+        {
+          "areaType": "FST",
+          "depreciatedValue": 2502,
+          "grossArea": 110,
+          "heatedArea": 0,
+          "sequence": 1
+        },
+        {
+          "areaType": "USP",
+          "depreciatedValue": 4094,
+          "grossArea": 360,
+          "heatedArea": 0,
+          "sequence": 2
+        },
+        {
+          "areaType": "BAS",
+          "depreciatedValue": 37119,
+          "grossArea": 816,
+          "heatedArea": 816,
+          "sequence": 3
+        },
+        {
+          "areaType": "FSP",
+          "depreciatedValue": 2911,
+          "grossArea": 214,
+          "heatedArea": 0,
+          "sequence": 4
+        }
+      ],
+      "type": {
+        "code": "01  ",
+        "description": "SINGLE FAMILY"
+      },
+      "units": 1.00,
+      "value": 46627,
+      "wallHeight": null,
+      "yearBuilt": 1959
+    }
+  ],
+  "extraFeatures": null,
+  "fullLegal": [
+    "ALTMAN COLBY SUBDIVISION LOT 1 BLOCK 5"
+  ],
+  "isConfidential": false,
+  "landLines": [
+    {
+      "acres": 0.16000,
+      "depth": 110,
+      "frontage": 64,
+      "item": 1,
+      "landType": {
+        "code": "SE",
+        "description": "SF LOTS W/ EFF SIZE"
+      },
+      "landUse": {
+        "code": "REB0",
+        "description": "Res SF Class 2.00"
+      },
+      "units": 7048.8000,
+      "value": 13957,
+      "zone": "RS-60"
+    }
+  ],
+  "landUse": {
+    "code": "0100",
+    "description": "SINGLE FAMILY R"
+  },
+  "mailingAddress": {
+    "addr1": "10001 N 25TH ST",
+    "addr2": "",
+    "city": "TAMPA",
+    "country": "",
+    "state": "FL",
+    "zip": "33612-7133"
+  },
+  "owner": "DULK DANIELA URSULA; ",
+  "pin": "19281744B000005000010A",
+  "propertyCard": {
+    "acreage": 0.16000,
+    "blockCode": "000005",
+    "certified": {
+      "_date": "08/03/2017",
+      "ag": null,
+      "appraisedJust": null,
+      "assessedEstimated": null,
+      "buildings": null,
+      "exemptionEstimated": null,
+      "extraFeatures": null,
+      "land": null,
+      "taxEstimated": null
+    },
+    "current": {
+      "_date": "02/26/2018",
+      "ag": 0,
+      "appraisedJust": null,
+      "assessedEstimated": null,
+      "buildings": 46627,
+      "exemptionEstimated": null,
+      "extraFeatures": 0,
+      "land": 13957,
+      "taxEstimated": null
+    },
+    "displayFolio": "143036-0000",
+    "displayStrap": "A-17-28-19-44B-000005-00001.0",
+    "folio": "1430360000",
+    "homestead": 25000,
+    "isConfidential": false,
+    "landUse": {
+      "code": "0100",
+      "description": "SINGLE FAMILY R"
+    },
+    "legalDescription": "ALTMAN COLBY SUBDIVISION LOT 1 BLOCK 5",
+    "lotCode": "000010",
+    "municipalityCode": "A",
+    "neighbor": {
+      "code": "214006.00",
+      "description": "Tampa Overlook Area"
+    },
+    "nonAdValoremTotalTax": null,
+    "nonSchoolTaxRate": 13.95920000,
+    "platBook": "34",
+    "platPage": "63",
+    "priorFolio": "0000000000",
+    "priorStrap": "",
+    "range": "17",
+    "schoolTaxRate": 6.59600000,
+    "section": "19",
+    "subCode": "44B",
+    "subdivision": {
+      "code": "44B",
+      "description": "ALTMAN COLBY SUBDIVISION"
+    },
+    "taxDist": {
+      "code": "TA",
+      "description": "TAMPA"
+    },
+    "topSaleDate": "1998-05-01",
+    "topSalePrice": 49000,
+    "totalTaxRate": 20.55520000,
+    "township": "28"
+  },
+  "salesHistory": [
+    {
+      "book": "9059",
+      "deedType": "WD  ",
+      "isConfidential": false,
+      "page": "1406",
+      "qualified": "Qualified",
+      "saleDate": "1998-05-01",
+      "salePrice": 49000,
+      "sequence": 3,
+      "vacOrImp": "Improved"
+    },
+    {
+      "book": "4808",
+      "deedType": "WD  ",
+      "isConfidential": false,
+      "page": "0457",
+      "qualified": "Qualified",
+      "saleDate": "1986-05-01",
+      "salePrice": 35500,
+      "sequence": 2,
+      "vacOrImp": "Improved"
+    },
+    {
+      "book": "4808",
+      "deedType": "QC  ",
+      "isConfidential": false,
+      "page": "0456",
+      "qualified": "Unqualified",
+      "saleDate": "1983-05-01",
+      "salePrice": 100,
+      "sequence": 1,
+      "vacOrImp": "Improved"
+    }
+  ],
+  "shortLegal": "ALTMAN COLBY SUBDIVISION LOT 1 BLOCK 5",
+  "siteAddress": "10001 N 25TH ST, TAMPA",
+  "streetLevelURL": "https://maps.googleapis.com/maps/api/streetview?fov=75&key=AIzaSyCNKpPoDflwftiwdQNvQCAFLoAyjNTg0vI&size=400x300&location=10001%20N%2025TH%20ST%2C%20TAMPA%20FL&signature=EelZ1t4eHFlYZS1WNxLXW513xOo=",
+  "subdivision": {
+    "code": "44B",
+    "description": "ALTMAN COLBY SUBDIVISION"
+  },
+  "taxDist": {
+    "code": "TA",
+    "description": "TAMPA"
+  },
+  "trimNotice": null,
+  "valueSummary": [
+    {
+      "assessedVal": 29130,
+      "exemptions": 25000,
+      "marketVal": 60584,
+      "sequence": 4,
+      "taxDist": "Other Districts",
+      "taxableVal": 4130
+    },
+    {
+      "assessedVal": 29130,
+      "exemptions": 25000,
+      "marketVal": 60584,
+      "sequence": 3,
+      "taxDist": "Municipal",
+      "taxableVal": 4130
+    },
+    {
+      "assessedVal": 29130,
+      "exemptions": 25000,
+      "marketVal": 60584,
+      "sequence": 2,
+      "taxDist": "Public Schools",
+      "taxableVal": 4130
+    },
+    {
+      "assessedVal": 29130,
+      "exemptions": 25000,
+      "marketVal": 60584,
+      "sequence": 1,
+      "taxDist": "County",
+      "taxableVal": 4130
+    }
+  ],
+  "subsidence": {
+    "status": ""
+  }
+}

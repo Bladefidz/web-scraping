@@ -1,0 +1,13 @@
+I need someone to download various product catalogue image assets from the following URL:
+1) http://boss.co.id/product/b1000-puro/
+2) http://boss.co.id/product/b4000-allure/
+
+I will need the following deliverables:
+
+1) Download the image assets and put in gDrive or Dropbox (separated into folders and individually named accordingly)
+
+2) You will also need to do up a gSheet which should contain:
+a) Product Name, Model No. Model Description
+b) gDrive/dropbox link to product image folder
+
+To ensure you have read the instructions, please start your message with "4532".

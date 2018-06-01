@@ -1,0 +1,751 @@
+[
+  {
+    "NPSN": "20177963",
+    "Nama Satuan Pendidikan": "MAN 14 JAKARTA TIMUR",
+    "Alamat": "Madrasah No.80",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "60706369",
+    "Nama Satuan Pendidikan": "MIN 03 CIJANTUNG",
+    "Alamat": "Jl Satya Raya Rt. 003/01 Komplek Kopasus Cijantung Jakarta Timur",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "60706370",
+    "Nama Satuan Pendidikan": "MIN 18 JAKARTA",
+    "Alamat": "Bulaksari RT.010/09",
+    "Kelurahan": "Kalisari",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "60706371",
+    "Nama Satuan Pendidikan": "MIS AL INAYAH",
+    "Alamat": "Jl. H. Moong No. 09 Rt 06/02",
+    "Kelurahan": "Baru",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "60706375",
+    "Nama Satuan Pendidikan": "MIS AL KHAIRIYAH",
+    "Alamat": "Jl. Pondok baru Rt.003 Rw.011 No.26",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "60706372",
+    "Nama Satuan Pendidikan": "MIS DARUSSA`ADAH",
+    "Alamat": "Jl Timor - Timur Dalam Rt 12/10",
+    "Kelurahan": "Gedong",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "60706373",
+    "Nama Satuan Pendidikan": "MIS MIFTAHUL JANNAH",
+    "Alamat": "PERTENGAHAN",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "60706247",
+    "Nama Satuan Pendidikan": "MIS SA`ADATUDDARAIN",
+    "Alamat": "Jln Masjid Al Magfiroh",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "60706374",
+    "Nama Satuan Pendidikan": "MIS SALSABILA",
+    "Alamat": "Batas Rt.008 / 03",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20178138",
+    "Nama Satuan Pendidikan": "MTSN 17 JAKARTA",
+    "Alamat": "Jl. Bakti 1 Rt. 005/09",
+    "Kelurahan": "-",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20178139",
+    "Nama Satuan Pendidikan": "MTSN 18 CIJANTUNG",
+    "Alamat": "Satya Raya Cijantung 3",
+    "Kelurahan": "-",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20178140",
+    "Nama Satuan Pendidikan": "MTSN 33 JAKARTA",
+    "Alamat": "Jl.pertengahan No.3A Pasar Rebo Cijantung Jakarta Timur",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108980",
+    "Nama Satuan Pendidikan": "SD ISLAM TELADAN YASMIN",
+    "Alamat": "Jl. Raya Bogor Km. 27",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20108989",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 01 PAGI",
+    "Alamat": "Jl. Ra Fadillah",
+    "Kelurahan": "BARU",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108997",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 02 PAGI",
+    "Alamat": "Jl. RA. Fadillah Cijantung III",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108990",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 03 PAGI",
+    "Alamat": "Jl. Gotong Royong",
+    "Kelurahan": "BARU",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108813",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 06 PAGI",
+    "Alamat": "Jl. Puskesmas Rt 008/02",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108670",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 07 PAGI",
+    "Alamat": "Jl. Candraqa 10",
+    "Kelurahan": "BARU",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109093",
+    "Nama Satuan Pendidikan": "SD NEGERI BARU 08 PAGI",
+    "Alamat": "Jl. Sawo Rt07/02",
+    "Kelurahan": "BARU",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108820",
+    "Nama Satuan Pendidikan": "SD NEGERI CIJANTUNG 11 PETANG",
+    "Alamat": "Jl. Pertengahan",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108967",
+    "Nama Satuan Pendidikan": "SD NEGERI KALISARI 01 PAGI",
+    "Alamat": "Jl. Raya Kalisari",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108710",
+    "Nama Satuan Pendidikan": "SD NEGERI KALISARI 02 PAGI",
+    "Alamat": "Jl. Raya Cijantung IV",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108826",
+    "Nama Satuan Pendidikan": "SD NEGERI KALISARI 03 PAGI",
+    "Alamat": "Kalisari",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108712",
+    "Nama Satuan Pendidikan": "SD NEGERI KALISARI 08 PETANG",
+    "Alamat": "Jl. Raya Kalisari",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108833",
+    "Nama Satuan Pendidikan": "SD NEGERI PEKAYON 18 PG",
+    "Alamat": "Jl. Tipar Rt 01/07 No.66",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109206",
+    "Nama Satuan Pendidikan": "SD PANGUDI RAHAYU",
+    "Alamat": "Jl. Raya Bogor Km 24",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "69938511",
+    "Nama Satuan Pendidikan": "SDIT ASY-SYAFII",
+    "Alamat": "JL. PUSKESMAS RT 05 RW 11 NO. 25 B",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20108812",
+    "Nama Satuan Pendidikan": "SDN Baru 05 Pg.",
+    "Alamat": "Jl. Puskesmas No. 34",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108814",
+    "Nama Satuan Pendidikan": "SDN Cijantung 01 Pg.",
+    "Alamat": "Jl. Pertengahan RT.07/06",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109179",
+    "Nama Satuan Pendidikan": "SDN Cijantung 02 Pagi",
+    "Alamat": "Jl. Pertengahan Gg. Kramat I RT. 003 RW. 03",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108815",
+    "Nama Satuan Pendidikan": "SDN Cijantung 03 Pg.",
+    "Alamat": "Jl. R.A. Fadillah No. 1",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108816",
+    "Nama Satuan Pendidikan": "SDN Cijantung 05 Pg.",
+    "Alamat": "Jl. Pertengahan N0 4",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108817",
+    "Nama Satuan Pendidikan": "SDN Cijantung 06 Pg.",
+    "Alamat": "Jl. Gongseng Raya RT010/01",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109262",
+    "Nama Satuan Pendidikan": "SDN Cijantung 07 Pg.",
+    "Alamat": "Jl. Gongseng Raya",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108821",
+    "Nama Satuan Pendidikan": "SDN GEDONG 01",
+    "Alamat": "Jl. Trikora No. 67",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109110",
+    "Nama Satuan Pendidikan": "SDN Gedong 03 Pg.",
+    "Alamat": "Jl. Raya Condet",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108822",
+    "Nama Satuan Pendidikan": "SDN Gedong 05",
+    "Alamat": "Jl. Surilang No. 8",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109024",
+    "Nama Satuan Pendidikan": "SDN Gedong 08 Pg.",
+    "Alamat": "Jl. Trikora No. 74",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108824",
+    "Nama Satuan Pendidikan": "SDN Gedong 10 Pg.",
+    "Alamat": "Jl. Taiman Barat II No. 8 Rt 005/10",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108996",
+    "Nama Satuan Pendidikan": "SDN Gedong 11 Pg.",
+    "Alamat": "Jl. H. Taiman Barat II",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108994",
+    "Nama Satuan Pendidikan": "SDN Gedong 12 Pg.",
+    "Alamat": "Jl. Raya Condet",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108993",
+    "Nama Satuan Pendidikan": "SDN Kalisari 04 Pg.",
+    "Alamat": "Jl. Raya Kalisari",
+    "Kelurahan": "Kalisari",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108711",
+    "Nama Satuan Pendidikan": "SDN Kalisari 05",
+    "Alamat": "Jl. Raya Kalisari, Rt. 06/02",
+    "Kelurahan": "Kalisari",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108834",
+    "Nama Satuan Pendidikan": "SDN Pekayon 01 Pg.",
+    "Alamat": "Jl. Raya Bogor Km. 27",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108836",
+    "Nama Satuan Pendidikan": "SDN Pekayon 03 Pg.",
+    "Alamat": "Jl. Gandaria I Rt. 08/09",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108838",
+    "Nama Satuan Pendidikan": "SDN PEKAYON 05",
+    "Alamat": "Komplek Asrama Yonif 201/Jaya",
+    "Kelurahan": "PEKAYON",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108839",
+    "Nama Satuan Pendidikan": "SDN Pekayon 07 Pg.",
+    "Alamat": "Jl. Raya Bogor Km. 27",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108981",
+    "Nama Satuan Pendidikan": "SDN Pekayon 09",
+    "Alamat": "Jl. Pendidikan",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108841",
+    "Nama Satuan Pendidikan": "SDN Pekayon 10 Pg.",
+    "Alamat": "Jl. LAPAN Rt 004 Rw 09",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108842",
+    "Nama Satuan Pendidikan": "SDN Pekayon 11 Pg.",
+    "Alamat": "Jl. Gandaria I",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108829",
+    "Nama Satuan Pendidikan": "SDN PEKAYON 12",
+    "Alamat": "Jl. Raya Bogor Km 28.5 Komplek Asrama Yonif 201 Jaya Yudha",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108830",
+    "Nama Satuan Pendidikan": "SDN Pekayon 15 Pg.",
+    "Alamat": "Jl. Telaga RT. 013/009",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20108831",
+    "Nama Satuan Pendidikan": "SDN Pekayon 16 Pg.",
+    "Alamat": "Jl. Swadaya",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20109201",
+    "Nama Satuan Pendidikan": "SDS Dharma Bakti",
+    "Alamat": "Jl. Raya Bogor",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109193",
+    "Nama Satuan Pendidikan": "SDS Ignatius Slamet Riyadi II",
+    "Alamat": "Jl. Raya Bogor Km. 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109192",
+    "Nama Satuan Pendidikan": "SDS IT. As Saadah",
+    "Alamat": "Jl. Jaha No. 17",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20108998",
+    "Nama Satuan Pendidikan": "SDS Kartika VIII -1",
+    "Alamat": "Jl. Anyelir Cijantung II",
+    "Kelurahan": "Gedong",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "69772651",
+    "Nama Satuan Pendidikan": "SDS NOAH",
+    "Alamat": "JL KALISARI RAYA II NO 11 RT 002/02",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109146",
+    "Nama Satuan Pendidikan": "SDS PB Sudirman",
+    "Alamat": "Jl. Raya Bogor Km. 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109219",
+    "Nama Satuan Pendidikan": "SDS Slamet Riyadi I",
+    "Alamat": "Jl. Raya Bogor Km.24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20177806",
+    "Nama Satuan Pendidikan": "SMA TARUNA PERSADA",
+    "Alamat": "JALAN MASJID NO 29",
+    "Kelurahan": "GEDONG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103291",
+    "Nama Satuan Pendidikan": "SMAN 104 JAKARTA",
+    "Alamat": "JL. H. TAIMAN BARAT KEL.GEDONG,JAKARTA TIMUR",
+    "Kelurahan": "GEDONG",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103289",
+    "Nama Satuan Pendidikan": "SMAN 106 JAKARTA",
+    "Alamat": "JL. GANDARIA I PEKAYON PASAR REBO JAKARTA TIMUR",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103296",
+    "Nama Satuan Pendidikan": "SMAN 39 JAKARTA",
+    "Alamat": "JL. RA FADILAH CIJANTUNG",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103300",
+    "Nama Satuan Pendidikan": "SMAN 88 JAKARTA",
+    "Alamat": "JL. SAWO",
+    "Kelurahan": "Baru",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103257",
+    "Nama Satuan Pendidikan": "SMAN 98 JAKARTA",
+    "Alamat": "JL.JAHA   NO. 1",
+    "Kelurahan": "Kalisari",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103214",
+    "Nama Satuan Pendidikan": "SMAS BUDHI WARMAN 2",
+    "Alamat": "JL. RAYA BOGOR KM.28",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103238",
+    "Nama Satuan Pendidikan": "SMAS IGN SLAMET RIYADI",
+    "Alamat": "JL. RAYA BOGOR KM.24",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103230",
+    "Nama Satuan Pendidikan": "SMAS ISLAM PB SOEDIRMAN",
+    "Alamat": "JL. RAYA BOGOR KM 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103231",
+    "Nama Satuan Pendidikan": "SMAS MALAHAYATI",
+    "Alamat": "JL. BIMA NO.3",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103176",
+    "Nama Satuan Pendidikan": "SMAS PANGUDI RAHAYU",
+    "Alamat": "JL. RAYA BOGOR KM 24,5",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "69773002",
+    "Nama Satuan Pendidikan": "SMK BHAKTI NEGERI",
+    "Alamat": "JL. BELLY/MEKAR V",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103790",
+    "Nama Satuan Pendidikan": "SMKN 22 JAKARTA",
+    "Alamat": "Jl. Raya Condet",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103276",
+    "Nama Satuan Pendidikan": "SMKS ANKES TUNAS HARAPAN",
+    "Alamat": "JL. BENDERA RAYA - INTISARI III KALISARI",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103691",
+    "Nama Satuan Pendidikan": "SMKS BUDI WARMAN 2 JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM.28",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103658",
+    "Nama Satuan Pendidikan": "SMKS ISLAM MALAHAYATI",
+    "Alamat": "JL. BIMA NO. 3",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103659",
+    "Nama Satuan Pendidikan": "SMKS ISLAM PB SOEDIRMAN 1 JAKARTA",
+    "Alamat": "JL.RAYA BOGOR KM.24",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103660",
+    "Nama Satuan Pendidikan": "SMKS ISLAM PB SOEDIRMAN 2 JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM. 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103677",
+    "Nama Satuan Pendidikan": "SMKS ISLAM YASMIN JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM.27",
+    "Kelurahan": "PEKAYON",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109490",
+    "Nama Satuan Pendidikan": "SMKS KARYA DHARMA 2 JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM.28",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103768",
+    "Nama Satuan Pendidikan": "SMKS KIMIA TUNAS HARAPAN",
+    "Alamat": "JL. BENDERA RAYA / INTISARI III",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20177896",
+    "Nama Satuan Pendidikan": "SMKS MAHADHIKA 4",
+    "Alamat": "JL. RAYA BOGOR KM. 25",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103758",
+    "Nama Satuan Pendidikan": "SMKS MARDI BAKTI JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM. 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103727",
+    "Nama Satuan Pendidikan": "SMKS PANGUDI RAHAYU I JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM. 24.5",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103726",
+    "Nama Satuan Pendidikan": "SMKS PANGUDI RAHAYU II JAKARTA",
+    "Alamat": "JL. RAYA BOGOR KM. 24,5",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107215",
+    "Nama Satuan Pendidikan": "SMKS PASKITA GLOBAL",
+    "Alamat": "JL. RAYA BOGOR KM. 25",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103746",
+    "Nama Satuan Pendidikan": "SMKS PERTIWI JAKARTA",
+    "Alamat": "JL. H. TAIMAN BARAT",
+    "Kelurahan": "Gedong",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103640",
+    "Nama Satuan Pendidikan": "SMKS PGRI 28 JAKARTA",
+    "Alamat": "JL. CONDET RAYA PASAR REBO JAKARTA TIMUR",
+    "Kelurahan": "GEDONG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107080",
+    "Nama Satuan Pendidikan": "SMP Dharma Bakti",
+    "Alamat": "Jl. Raya Bogor Km. 24",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107089",
+    "Nama Satuan Pendidikan": "SMP IGNATIUS SLAMET RIYADI",
+    "Alamat": "Jl. Raya Bogor Km.24",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107104",
+    "Nama Satuan Pendidikan": "SMP Islam Karya Darma",
+    "Alamat": "Jl. Raya Bogor Km. 28",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20108982",
+    "Nama Satuan Pendidikan": "SMP Islam Malahayati",
+    "Alamat": "Jl. Bima No. 3 (Gongseng Raya) Cijantung, Pasar Rebo, Jakarta Timur 13770",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107093",
+    "Nama Satuan Pendidikan": "SMP ISLAM PB. SOEDIRMAN",
+    "Alamat": "Jl. Raya Bogor Km. 24 Cijantung",
+    "Kelurahan": "CIJANTUNG",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20109294",
+    "Nama Satuan Pendidikan": "SMP Islam Plus Mardhotillah",
+    "Alamat": "Jl. Telaga",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107176",
+    "Nama Satuan Pendidikan": "SMP ISLAM YASMIN",
+    "Alamat": "Jl. Raya Bogor Km. 27",
+    "Kelurahan": "Pekayon",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107100",
+    "Nama Satuan Pendidikan": "SMP Kartika VIII-1",
+    "Alamat": "Jl. Anyelir Cijantung II ",
+    "Kelurahan": "Gedong",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20103612",
+    "Nama Satuan Pendidikan": "SMP N 184 JAKARTA",
+    "Alamat": "Jl. Lapan Pekayon",
+    "Kelurahan": "PEKAYON",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103622",
+    "Nama Satuan Pendidikan": "SMP N 203 JAKARTA",
+    "Alamat": "Jl. Kalisari",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103507",
+    "Nama Satuan Pendidikan": "SMP NEGERI 102 JAKARTA",
+    "Alamat": "Jl. Sederhana Raya-cijantung II",
+    "Kelurahan": "GEDONG",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103508",
+    "Nama Satuan Pendidikan": "SMP NEGERI 103",
+    "Alamat": "Jl. RA. Fadillah Komplek Kopassus ",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103614",
+    "Nama Satuan Pendidikan": "SMP NEGERI 179 JAKARTA",
+    "Alamat": "Jl. Raya Kalisari",
+    "Kelurahan": "KALISARI",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103633",
+    "Nama Satuan Pendidikan": "SMP NEGERI 217 JAKARTA",
+    "Alamat": "Jl.gongseng Raya",
+    "Kelurahan": "BARU",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103631",
+    "Nama Satuan Pendidikan": "SMP Negeri 223",
+    "Alamat": "Jl. Surilang No. 6",
+    "Kelurahan": "Gedong",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103582",
+    "Nama Satuan Pendidikan": "SMP Negeri 251",
+    "Alamat": "Jl. Mawar Kamp. Asem",
+    "Kelurahan": "Cijantung",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "20103588",
+    "Nama Satuan Pendidikan": "SMP Negeri 91",
+    "Alamat": "Jl. Raya Bogor Km. 28 Pekayon",
+    "Kelurahan": "Pekayon",
+    "Status": "NEGERI"
+  },
+  {
+    "NPSN": "69968265",
+    "Nama Satuan Pendidikan": "SMP NOAH",
+    "Alamat": "Jl. Kalisari Raya II Rt 02/02 ",
+    "Kelurahan": "Kalisari",
+    "Status": "SWASTA"
+  },
+  {
+    "NPSN": "20107139",
+    "Nama Satuan Pendidikan": "SMP Pengudi Rahayu",
+    "Alamat": "Jl. Raya Bogor Km. 24,5",
+    "Kelurahan": "Cijantung",
+    "Status": "SWASTA"
+  }
+]
